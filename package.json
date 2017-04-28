@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo \"Starting server\" && NODE_ENV=prod",
+    "start": "echo \"Starting server\" && NODE_ENV=prod gulp",
     "stop": "echo \"Stoping server\" && pkill idyllic_app && pkill idyllic_gulp && echo \"Server Stopped\""
   },
   "author": "Idyllic Software",

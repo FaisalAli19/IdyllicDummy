@@ -1,0 +1,6 @@
+{% extends "./layouts/default.html" %} {% block title %}404 Page Not Found{% endblock %} {% set is_banner_page = true %} {% block styles %}<style>.content-wrap {
+            min-height: 60%;
+        }
+        .banner {
+            height: calc(100vh - 240px);
+        }</style>{% endblock %} {% block content %}<div class="container not-found-page"><section class="banner flex-box flex-column flex-wrap justify-content-center align-items-center"><h1 class="title-font">404</h1><h2>Not Found</h2></section></div>{% endblock %}

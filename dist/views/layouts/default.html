@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><title>{% block title %}Ruby on Rails consulting{% endblock %}</title><meta name="description" content="{% block meta_description %}Idyllic is an Agile Ruby on Rails Development team using the best of Kanban and Scrum methodologies.{% endblock %}"><meta name="keywords" content="{% block meta_keywords %}ruby on rails development, ror development, rails development, ruby development, iOS, Android, Agile, Kanban.{% endblock %}"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><link rel="shortcut icon" type="image/ico" href="/favicon.ico"><link href="/css/style-694bc7ab29.css" rel="stylesheet">{% block styles %}{% endblock %} {% block extra_css %}{% endblock %}<script src="https://use.typekit.net/zsc2aeh.js"></script><script>try{Typekit.load({ async: true });}catch(e){}</script><script src="https://www.google.com/recaptcha/api.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/3.0.0/lazysizes.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/3.0.0/plugins/unveilhooks/ls.unveilhooks.min.js"></script>{% from "../includes/macros.html" import icon_play, icon_right_arrow, icon_menu_bar, icon_menu_close, icon_twitter, icon_linkedin, icon_mail, icon_refresh, icon_logo, icon_quote, icon_share, icon_down_outside_arrow, icon_transparent_iphone, icon_transparent_mac, icon_facebook, icon_chat, back_icon_btn, icon_right_arrow_white, icon_scroll, stories_component, freak_component, plus_icon, smile_icon, naked_facts_component, next_up_component, our_thoughts_component %}</head><body class="main-wrap {{page.body_cls}}">{% include "../includes/header.html" %}<div class="content-wrap">{% block content %} {% endblock %}</div>{% if is_production %} {% include "../includes/google_analytics.html" %}<iframe src="https://www.linkedin.com/in/jinesh-parekh-b85271135" height="1" width="1" frameborder="0" style="display:none"></iframe>{% endif %} {% include "../includes/footer.html" %}<script src="/js/vendor-8f6542265e.js"></script><script src="/js/main-8858caf291.js"></script>{% block extra_js %}{% endblock %}<script>// <![CDATA[
+                    var idyllic = new Idyllic();
+                    idyllic.init({
+                        page_type: "{{ page.page_type }}",
+                        baseUrl: "{{ page.js_data.baseUrl }}",
+                        apiKey: "{{ page.js_data.apiKey }}"
+                    });
+            // ]]></script>{% if is_production %}<script>if (window.performance) {
+                    var timeSincePageLoad = Math.round(performance.now());
+                    ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad);
+                }</script><script type="text/javascript">piAId = '308691';
+                piCId = '1925';
+
+                (function() {
+                    function async_load(){
+                        var s = document.createElement('script'); s.type = 'text/javascript';
+                        s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                        var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+                    }
+                    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+                    else { window.addEventListener('load', async_load, false); }
+                })();</script>{% endif %}</body></html>
