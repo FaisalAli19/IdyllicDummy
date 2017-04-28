@@ -41,6 +41,7 @@
     "shipit-deploy": "^2.2.0"
   },
   "dependencies": {
-    "gulp-rev-collector": "^1.0.5"
+    "gulp-rev-collector": "^1.0.5",
+    "gulp": "^3.9.1"
   }
 }
