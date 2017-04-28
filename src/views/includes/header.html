@@ -1,0 +1,99 @@
+<header class="header-section-wrap">
+    <!-- <div class="menu-popup-icon">
+        <span class="menu-icon-btn">{{ icon_menu_bar() }}</span>
+        <span class="header-icon-label">Menu</span>
+    </div> -->
+    {% if page.back_navigation %}
+        <div class="breadcrumb-path">
+            <div class="breadcrumb-subpath hidden-xs">
+                <p><a href="{{ page.back_page_path }}">{{ page.back_page_name }}</a></p>
+                <span class="arrow-right"></span>
+                <p class="subpath-text">{{ page.back_navigation_title }}</p>
+            </div>
+        </div>
+    {% endif %}
+<!--
+    {% if not page.hide_menu_title %}
+	    <div class="page-heading">
+            <p>{{ page.menu_title | safe }}</p>
+
+            {% if page.page_type == "studio" %}
+                <ul class="submenus hidden-xs">
+                {%
+                    set studio_menus = [{
+                        name: 'User Experience',
+                        url: paths.user_experience_path,
+                        page_name: 'user_experience'
+                    }, {
+                        name: 'Web Dev',
+                        url: paths.web_dev_path,
+                        page_name: 'web_dev'
+                    }, {
+                        name: 'Mobile Dev',
+                        url: paths.mobile_dev_path,
+                        page_name: 'mobile_dev'
+                    }, {
+                        name: 'About Us',
+                        url: paths.about_us_path,
+                        page_name: 'about_us'
+                    }]
+                %}
+                  {% for studio_menu in studio_menus %}
+                    <li>
+                        {% if page.name == studio_menu.page_name %}
+                            <a href="{{studio_menu.url}}" class="active-page">
+                        {% else %}
+                            <a href="{{studio_menu.url}}">
+                        {% endif %}
+                          <span>{{studio_menu.name}}</span>
+                        </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+            {% endif %}
+	    </div>
+    {% endif %} -->
+
+	<!-- <div class="menu-popup-icon mail-icon-wrap">
+        <span class="scroll_to" data-where-to-scroll=".goto-contact-section">{{ icon_mail() }}</span>
+        <span class="header-icon-label">Reach us</span>
+	</div> -->
+    <div class="mobile-submenu hidden-lg hidden-md hidden-sm hidden-xs">
+      {% if page.page_type == "studio" %}
+          <ul class="submenus">
+          {%
+              set studio_menus = [{
+                  name: 'User Experience',
+                  url: paths.user_experience_path,
+                  page_name: 'user_experience'
+              }, {
+                  name: 'Web Dev',
+                  url: paths.web_dev_path,
+                  page_name: 'web_dev'
+              }, {
+                  name: 'Mobile Dev',
+                  url: paths.mobile_dev_path,
+                  page_name: 'mobile_dev'
+              }, {
+                  name: 'About Us',
+                  url: paths.about_us_path,
+                  page_name: 'about_us'
+              }]
+          %}
+            {% for studio_menu in studio_menus %}
+              <li>
+                  {% if page.name == studio_menu.page_name %}
+                      <a href="{{studio_menu.url}}" class="active-page">
+                  {% else %}
+                      <a href="{{studio_menu.url}}">
+                  {% endif %}
+                    <span>{{studio_menu.name}}</span>
+                  </a>
+              </li>
+            {% endfor %}
+          </ul>
+      {% endif %}
+    </div>
+</header>
+
+{% include "includes/menu.html" %}

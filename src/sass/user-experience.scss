@@ -1,0 +1,262 @@
+@import "includes/variables";
+@import "includes/mixins";
+
+.user-experience-viewport-section{
+  @include backgroundCoverImage('//s3.amazonaws.com/website-2017/images/user-experience/banner.jpg');
+  @include viewport_circle_section;
+	.user-experience-viewport{
+    @include viewPortOverlay;
+  }
+  .scroll-button-section {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      svg {
+        width: 16px;
+      }
+      .f-brush {
+        margin-top: -20px;
+        color: #fff;
+      }
+      &:hover {
+        text-decoration: none;
+        svg .brand-orange-fill-color {
+          fill: #657682;
+        }
+        .f-brush {
+          color: $studio-orange-color;
+        }
+      }
+    }
+  }
+}
+
+.how-we-do-it-section {
+  position: relative;
+  .left-circle {
+    @include circle(200px);
+    position: absolute;
+    background: rgba(57,181,74,0.1);
+    bottom: 100px;
+    left: -100px;
+  }
+}
+.what-we-do-circle-wrap {
+  position: relative;
+  margin-top: 108px;
+  .left-circle {
+    @include circle(200px);
+    position: absolute;
+    background: rgba(242,108,79,0.1);
+    bottom: -125px;
+    z-index: 1;
+    left: -100px;
+  }
+  .what-we-do-wrap {
+    &:hover {
+      .img-overlay, h4 {
+          color: $studio-sky-blue-color;
+        }
+      }
+    }
+  .img-overlay {
+    background-color: rgba(0, 220, 240, 0.5);
+  }
+}
+
+.design-nerds-section {
+  position: relative;
+  margin-bottom: 108px;
+  .design-nerds-overlay {
+    position: absolute;
+    @include backgroundCoverImage('//s3.amazonaws.com/website-2017/images/user-experience/design-nerds-bg.jpg');
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 530px;
+  }
+  .design-text-wrap {
+    @include displayFlexCenter;
+    position: relative;
+    z-index: 1;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    .design-text {
+      margin: 30px auto 0px;
+      h3, h2 {
+          @include boldFont;
+          color: rgba(41, 48, 53, 0.75);
+          font-size: 50px;
+          letter-spacing: 10px;
+          margin: 0px;
+        }
+        h2 {
+          font-size: 130px;
+          font-weight: 900;
+          line-height: 100px;
+        }
+        h3 {
+          margin-left: 5px;
+        }
+    }
+    .ux-team {
+      img {
+        margin-top: -116px;
+      }
+    }
+  }
+}
+
+.how-we-do-it-section .nav-links-container .nav-links {
+  li {
+    a {
+      &.hear:before {
+        content: 'how';
+      }
+      &.learn:before {
+        content: 'we';
+      }
+      &.ideate:before {
+        content: 'do';
+      }
+      &.create:before {
+        content: 'it';
+      }
+    }
+  }
+}
+
+.what-we-do-circle-wrap {
+  .what-we-do-wrap:hover {
+    .img-overlay-wrap + div {
+      background: none;
+    }
+    .img-overlay {
+      background: rgba(0, 220, 240, 0.5);
+      color: #fff;
+    }
+    h4 {
+      color: $studio-dark-black-color;
+    }
+  }
+}
+
+.slick-slide, .dark-translucent-background {
+  height: 100%;
+  max-height: 622px;
+}
+
+li.slick-slide {
+  padding-bottom: 46px;
+  background-repeat: no-repeat;
+  background-position: 0% 47px;
+  background-clip: content-box;
+}
+
+@media (max-width: $device-xs) {
+  .user-experience-viewport-section{
+    .user-experience-viewport {
+      h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      span {
+        font-size: 24px;
+      }
+    }
+  }
+  .how-we-do-it-section {
+    .dark-translucent-background {
+      height: 100%;
+      min-height: 680px;
+      padding: 100px 10px 10px 20px;
+    }
+    .slick-slide {
+      min-height: 680px;
+      height: 100%;
+    }
+    div.col-md-12 {
+      padding: 20px 0;
+    }
+    h1.col-md-12 {
+      padding: 44px 0px 0 14px;
+    }
+    .article-container {
+      padding: 0;
+    }
+    .article-summary {
+      padding: 20px 15px;
+    }
+    ul.how-we-do-slides {
+      padding: 20px 0 0;
+    }
+    li.slick-slide {
+      background-position: initial;
+      padding-bottom: 0;
+    }
+    .slick-dots {
+      bottom: 20px;
+    }
+  }
+  .design-nerds-section {
+    margin-bottom: 50px;
+    .design-nerds-overlay {
+      height: 100%;
+    }
+    .design-text-wrap {
+      overflow-x: hidden;
+      .design-text {
+        padding: 10px;
+        h3 {
+          font-size: 32px;
+          padding-left: 6px;
+        }
+        h1 {
+          font-size: 62px;
+          padding-left: 10px;
+          line-height: 54px;
+        }
+      }
+      .ux-team img {
+        width: 384px;
+        margin: 0px;
+        margin-top: -56px;
+      }
+    }
+  }
+  .what-we-do-circle-wrap {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: $device-xs) and (max-width: $device-sm) {
+  .how-we-do-it-section {
+    .carousel-title {
+      font-size: 52px;
+      margin-left: 10px;
+    }
+    .slick-dots {
+      bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: $device-xs) and (max-width: $device-md) {
+  .how-we-do-it-section {
+    .dark-translucent-background, .slick-slide {
+      min-height: 515px;
+    }
+    .dark-translucent-background {
+      padding-bottom: 0;
+    }
+  }
+}

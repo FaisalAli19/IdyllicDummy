@@ -1,0 +1,167 @@
+{% extends "../layouts/default.html" %}
+
+{% block title %}
+	User Experience Consulting | Top App Development Companies | Idyllic
+{% endblock %}
+
+{% block meta_description %}
+	Idyllic is a design driven Ruby on Rails development team delivering projects on time, within the budget. Leading App Development & UX consultants.
+{% endblock %}
+
+{% block meta_keywords %}
+	ruby on rails development, ror development, rails development, ruby development, iOS, Android, Agile, Node.js, user experience consultant, top app development comapnies, idyllic
+{% endblock %}
+
+{% block extra_css %}
+	<link href="/css/about-us.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<section class="about-us-viewport-section" data-hide-menu-section>
+	<div class="circle-wrap">
+		<div class="outer_circle">
+			<div class="inner_circle"></div>
+		</div>
+	</div>
+	<div class="about-us-viewport">
+		<h1>We are mavericks.</br><span>We think like us!</span></h1>
+	</div>
+</section>
+
+<section class="we-think-section">
+    <div class="container">
+    	<div class="center-box-wrap">
+	    		<div class="strike pb20">
+	            <span class="text-uppercase">our dna</span>
+	        </div>
+	        <p>
+	        	The dictionary meaning for maverick is 'independent ­minded person'. But then, we don't follow the dictionary either.
+	        </p>
+
+	        <p>
+		        Trust us.We follow ourselves. A bunch of talented, free spirited geeks who have come together with a vision. Ok, may be vision is too heavy a word for a free flowing young lot like us.
+	        </p>
+	        <br>
+	        <p>
+		        We get inspired by the leaders of the industry but we don’t follow them blindly. You can call us an arrogant bunch of geeks, or you can call us brave. Brave enough to think new. Think simple. Think pragmatic. Think the way only we would. No wonder,coming out with the tagline for ‘Idyllic’ was easy:
+	    		</p>
+	    	<p class="sub-info-text fs40">we think like us!</p>
+    	</div>
+    </div>
+</section>
+
+<section class="our-values-section our-section">
+	<div class="circle-wrap">
+		<div class="outer_circle">
+			<div class="inner_circle"></div>
+		</div>
+	</div>
+	<div class="container">
+	    <div class="our-section-wrap">
+	      <div class="header-wrap mb30">
+	        <h2>Our Values</h2>
+	      </div>
+	      <div class="slides custom_slick" data-slick='{"fade": true, "dots": true}'>
+			  {% for item in our_values %}
+			  	<div class="slides-items">
+				  <div class="number">{{ item.text }}</div>
+				  <p>{{ item.description | safe }}</p>
+				</div>
+			  {% endfor %}
+	      </div>
+	    </div>
+	  </div>
+</section>
+
+<section class="embarrassing-facts-section">
+    <div class="container">
+    	<div class="center-box-wrap">
+	    		<div class="rel">
+					<div class="rel">
+	    				<img src="//s3.amazonaws.com/website-2017/images/about-us/brochure.png" width="100%" />
+						<img src="//s3.amazonaws.com/website-2017/images/about-us/brochure_layer.png" width="100%" class="brochure_layer" />
+						<img src="//s3.amazonaws.com/website-2017/images/about-us/book.png" class="book_img"/>
+					</div>
+	    			<div class="fact-text-wrapper">
+			    		<div class="strike pb20">
+			            <span class="text-uppercase">embarrassing facts about us</span>
+			        </div>
+			        <div class="fact_slides">
+						{% for fact in facts %}
+							<div class="fact_slide_item" data-index="{{ loop.index0 }}">
+								<div class="number"># {{ loop.index | two_digit }}</div>
+				        		<h2 class="random_facts_text">{{ fact | safe }}</h2>
+							</div>
+						{% endfor %}
+						<div class="fact_slide_item" data-index="-1">
+							<h2 class="random_facts_text">Why don't you download <br/>
+								the entire book :)
+							</h2>
+						</div>
+		        	</div>
+					<div class="btn_refresh_section">
+							<span class="dIB curP m30 mb0 btn_refresh refresh_facts_btn" data-type="about_us" title="refresh for more">
+						{{ icon_refresh() }}</span>
+					  	<div class="f-brush rel top-10">refresh for more</div>
+					</div>
+					<div class="btn_smile_section">
+						<span class="dIB curP m30 mb0" data-type="about_us" title="refresh for more">
+							{{ smile_icon() }}</span>
+						<div class="f-brush rel top-10">download for more</div>
+					</div>
+
+		        </div>
+		     </div>
+	        <div class="get-copy-section pt50 mt50">
+	        	<p class="f15">Get a copy of all the 20 embarrassing facts about us</p>
+	        	<div class="email-form-wrap">
+					<form class="fact_book_form form-inline" method="post">
+		        		<input type="text" class="form-control" placeholder="email" name="email" required autocomplete="off">
+						<input type="hidden" name="content" value="20 embarassing facts" autocomplete="off"/>
+		        		<span><button type="submit" class="btn confirm-btn primary-button f15">CONFIRM</button></span>
+					</form>
+		        </div>
+	        </div>
+	    </div>
+	</div>
+</section>
+
+<section class="core_team_section">
+	<div class="header-wrap mb30">
+		<h2>CORE TEAM</h2>
+		<h4>your first point of contact</h4>
+	</div>
+	<div class="image_section">
+		<div class="core_team-image-slider">
+			{% for people in core_team %}
+			<div class="core_team-image-slide-item {{ people.cls }}">
+				<div class="core_team_item">
+					<h3>{{ people.short_name }}</h3>
+					<img src="{{ people.img_url }}" class="core_member_image" />
+					<img src="{{ people.other_img_url }}" class="core_member_image_bw" />
+					<div class="arrow-up"></div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="name_section">
+		<div class="core_team-name-slider custom_slick">
+			{% for people in core_team %}
+			<div class="core_team-name-slide-item">
+				<h3>{{ people.name }}</h3>
+				<p class="title_text">{{ people.title | safe }}</p>
+				<span class="divide"></span>
+				<p class="quote_text">{{ people.quote | safe }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+{{ next_up_component(paths.creates_path, 'Creates') }}
+
+{% include "../includes/contact_form.html" %}
+
+{% endblock %}

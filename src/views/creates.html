@@ -1,0 +1,126 @@
+{% extends "./layouts/default.html" %}
+
+{% block title %}
+    Ruby on Rails, iOS, Android & Node.js Projects | Boulder, Boston, Chicago
+{% endblock %}
+
+{% block meta_description %}
+    Top firms in the US employ us to work for their web and mobile projects.
+{% endblock %}
+
+{% block meta_keywords %}
+    Web Projects, Mobile Projects, ROR, iOS, Android Projects, Software Consulting.
+{% endblock %}
+
+{% block extra_css %}
+    <link href="/css/creates.css" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+<section class="creates-viewport-section fankave-banner" data-hide-menu-section>
+    <div class="circle-wrap">
+        <div class="outer_circle">
+            <div class="inner_circle"></div>
+        </div>
+    </div>
+    <div class="viewport-overlay">
+        <div class="container project-slides-wrap">
+            <div class="slides-for" >
+                <div class="slides-items" data-cls="fankave-banner">
+                    <p>Helped design an in-stadium experience for <span class="f30 fw500">Fankave</span></p>
+                    <p class="brand-blue-color f18 fw600">User Experience&nbsp;&nbsp; - &nbsp;&nbsp;User Interface</p>
+                    <span class="icon_transparent_iphone hidden-xs">{{ icon_transparent_iphone() }}</span>
+                </div>
+                <div class="slides-items" data-cls="bridj-banner">
+                    <p>We helped <span class="f30 fw500">BRIDJ</span> launch & evaluate at <span class="f30 fw500">$60M</span></p>
+                    <p class="brand-blue-color f18 fw600">iOS&nbsp;&nbsp; - &nbsp;&nbsp;Android&nbsp;&nbsp; - &nbsp;&nbsp;Design&nbsp;&nbsp; - &nbsp;&nbsp;Dev</p>
+                    <span class="icon_transparent_iphone hidden-xs">{{ icon_transparent_iphone() }}</span>
+                    <span class="plus_icon hidden-xs">{{ plus_icon() }}</span>
+                    <span class="icon_transparent_mac hidden-xs">{{ icon_transparent_mac() }}</span>
+                </div>
+                <div class="slides-items" data-cls="tollfree-exchange-banner">
+                    <p>Helped innovate <span class="f30 fw500">Teliax</span> to launch a scalable telephone exchange</p>
+                    <p class="brand-blue-color f18 fw600">Ruby&nbsp;&nbsp; - &nbsp;&nbsp;SMS-800&nbsp;&nbsp; - &nbsp;&nbsp;Highly Scalable</p>
+                    <span class="icon_transparent_mac hidden-xs">{{ icon_transparent_mac() }}</span>
+                </div>
+            </div>
+            <div class="slides-nav">
+                <div class="slides-items" data-index="0">
+                    <h4>01</h4>
+                    <a href="{{ paths.fankave_case_studies_path }}"><div class="logo-wrap"><i class="sprt fankave-icon"></i></div></a>
+                </div>
+                <div class="slides-items" data-index="1">
+                    <h4>02</h4>
+                    <a href="{{ paths.bridj_case_studies_path }}"><div class="logo-wrap"><i class="sprt bridj-icon"></i></div></a>
+                </div>
+                <div class="slides-items" data-index="2">
+                    <h4>03</h4>
+                    <a href="{{ paths.teliax_studies_path }}"><div class="logo-wrap"><i class="sprt toll-free-exchange-icon"></i></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tag-section">
+    <div class="container">
+        <div class="center-box-wrap">
+            <div class="header-text-wrap">
+                <h1>We've got a lot to show and no clue where to begin</h1>
+                <span class="divide"></span>
+                <p>If you help us with your interests, we will talk about very specific case studies that will help you evaluate us better</p>
+            </div>
+            <div class="form-section mt50">
+                <div class="input-form">
+                    <form id="where_to_begin_form" class="form-inline" method="post">
+                        <div>
+                            {% for name, items in contact_us_tags %}
+                            <div class="checkbox-row mb15">
+                                {% for item in items %}
+                                <div class="checkbox-sections">
+                                    <input type="checkbox" class="hidden" id="begin_{{ item.name }}" name="tags[{{name}}][]" value="{{ item.value }}" autocomplete="off">
+                                    <label class="noselect" for="begin_{{ item.name }}">{{ item.value | safe }}</label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="mt30">
+                            <div class="email-form-wrap">
+                                <input type="email" name="email" required class="form-control" placeholder="email" autocomplete="off">
+                                <span><button type="submit" class="btn confirm-btn primary-button f15">CONFIRM</button></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="our-clients-section">
+    <a href="#" id="our-clients">client</a>
+    <div class="container">
+        <div class="header-wrap">
+            <h2>Clients</h2>
+            <h4>Folks we have worked with</h4>
+        </div>
+        <div class="our-clients-section-wrap">
+            <div class="client-list">
+                {% for client in clients %}
+                    <span>
+                        <img src="{{client.img_url}}" class="{{ client.cls }}" alt="{{client.name}}">
+                    </span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{ next_up_component(paths.fankave_case_studies_path, 'Fankave') }}
+
+{% include "includes/contact_form.html" %}
+
+{% endblock %}

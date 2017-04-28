@@ -1,0 +1,36 @@
+[{
+  "url": "/blog/why-should-businesses-care-about-microservices/",
+  "image_url": "/blog/wp-content/uploads/2015/07/micro11.png",
+  "image_present": true,
+  "header": "MICROSERVICES",
+  "subheader": "WHY SHOULD BUSINESSES CARE ABOUT MICROSERVICES?",
+  "description": "You have an awesome software team. They are following agile practices so that you can adopt change. But how many times was your development team able to make the change you asked for in the same hour or even on the same day?"
+}, {
+  "url": "/blog/hack-with-rack/",
+  "image_url": "",
+  "image_present": false,
+  "header": "RACK ARCHITECTURE",
+  "subheader": "HACK WITH RACK",
+  "description": "Some years ago, one of our clients wanted us to implement Social Network (FB,Twitter,Linkedin) sharing functionality. Knowing all the OAuth implementation that one has to deal with, we decided to use this awesome gem called OmniAuth that does all the heavy lifting tasks of OAuth Authorisation with very basic minimum implementation."
+}, {
+  "url": "/blog/api-testing/",
+  "image_url": "/blog/wp-content/uploads/2016/04/soap-UI.png",
+  "image_present": true,
+  "header": "Quality Analysis",
+  "subheader": "API TESTING",
+  "description": "API is “Application Programming Interface”. API mainly used for data communication between two modules or systems. A source sends a request to destination and destination sends a response to the source using API."
+}, {
+  "url": "/blog/4-important-concepts-any-front-end-developer-should-know/",
+  "image_url": "/blog/wp-content/uploads/2014/07/event-dispatching-in-DOM-tree.png",
+  "image_present": true,
+  "header": "Frontend",
+  "subheader": "4 IMPORTANT CONCEPTS ANY FRONTEND DEVELOPER SHOULD KNOW",
+  "description": "I picked these 4 concepts because I feel they would build a strong foundation of understanding for you and it is entirely my opinion and I also understand that every front end developer may not feel the same way. Also, the purpose of this article is to only briefly explain about these concepts so you can dig deeper when you know enough."
+}, {
+  "url": "/blog/setup-simple-website-using-nodejs-express-nunjucks-gulp-nodemon/",
+  "image_url": "",
+  "image_present": false,
+  "header": "Frontend",
+  "subheader": "Setup simple website using Node.js, Express, Nunjucks, Gulp & Nodemon",
+  "description": "This article about setup a simple website using Node.js as backend language, Nunjucks as template engine, express as server gulp as Task runner."
+}]

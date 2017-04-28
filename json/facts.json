@@ -1,0 +1,65 @@
+{
+  "web_dev": [{
+    "text": "We do not follow agile PROCESS. We stick to the manifesto.",
+    "sub_text": "Processes are made by the non-intelligent people to mimic the intelligent. We believe that the process has compromised the manifesto. We stick with the manifesto and pick the best from XP and Kanban to set a unique process for each customer."
+  }, {
+    "text": "We are not fond of logging hours.",
+    "sub_text": "As developers, we like to write code and not fill in excel sheets. We often forget logging hours and then we just do not log them. We lose money :(."
+  }, {
+    "text": "We debate on every requirement.",
+    "sub_text": "We like to put our perspective on every feature and think that we can do it better than you suggest."
+  }, {
+    "text": "We keep meetings short and to the point.",
+    "sub_text": "We like to talk straight to the point and plan the next steps. Nothing less. Nothing more. Weather discussions do not excite us at all."
+  }],
+
+  "mobile_dev": [{
+    "text": "We are not fond of hybrid technologies",
+    "sub_text": "We’ve tried everything xamarin, phonegap, react and what not. But we only like to stay native and push hard to convince our customers."
+  }, {
+    "text": "We’ve done limited number of projects.",
+    "sub_text": "Our mobile development team is still only a few years old and is fairly new. So we only have a fewer projects to claim unlike our web team."
+  }, {
+    "text": "We think everything should be mobile ONLY",
+    "sub_text": "Where people think it should be mobile first, we think it should be mobile only."
+  }, {
+    "text": "We’re yet to open our IoT kits.",
+    "sub_text": "We ordered beacons and more, but we have not yet gotten to them."
+  }],
+
+  "ux_dev": [{
+    "text": "We may give you a sarcastic answer if you ask us a stupid question. Can't help!",
+    "sub_text": ""
+  }, {
+    "text": "We advise you to not hold us responsible for the weird faces when you talk to us. No FaceTime please!",
+    "sub_text": ""
+  }, {
+    "text": "Be ready to tell us. Hey guys, hold on. Stop overthinking about a problem.",
+    "sub_text": ""
+  }, {
+    "text": "Beer Fridays are better days at work. You may find us talking more that day. Ahem!",
+    "sub_text": ""
+  }, {
+    "text": "We end up falling in so much love with our work, our restroom breaks get longer during projects.",
+    "sub_text": ""
+  }, {
+    "text": "We do expect you will send Santa during Christmas time. We like Scotch.",
+    "sub_text": ""
+  }, {
+    "text": "When you work with us, we will teach you how to give a high-five over the phone. Not kidding!",
+    "sub_text": ""
+  }, {
+    "text": "We can’t always keep you happy. We are not a bacon.",
+    "sub_text": ""
+  }, {
+    "text": "We will sometimes say hello, without being ready for a conversation.",
+    "sub_text": ""
+  }],
+
+  "about_us": [
+    "We work in a planned fashion. The only thing is that we each have our own plans.",
+    "We need you more than you need us.",
+    "We'll talk in about 40 different accents in English",
+    "After every deployment, we turn unusually religious and call on higher powers."
+  ]
+}

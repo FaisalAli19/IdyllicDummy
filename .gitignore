@@ -1,0 +1,19 @@
+# Always-ignore files and folders #
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swn
+*.swo
+*.swp
+._*
+*~
+
+bower_components
+node_modules
+build
+dist
+.idea
+
+**/.DS_Store

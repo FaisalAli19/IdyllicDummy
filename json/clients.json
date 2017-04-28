@@ -1,0 +1,49 @@
+[{
+  "name": "Founder Institute",
+  "cls": "founder_institute_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/founder_institute.png"
+}, {
+  "name": "Sears",
+  "cls": "sears_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/sears.png"
+}, {
+  "name": "Bridj",
+  "cls": "bridj_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/bridj.png"
+}, {
+  "name": "Schloop",
+  "cls": "schloop_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/schloop.png"
+}, {
+  "name": "Trx",
+  "cls": "trx_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/trx.png"
+}, {
+  "name": "Kabbage",
+  "cls": "kabbage_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/kabbage.png"
+}, {
+  "name": "Teliax",
+  "cls": "teliax_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/teliax.png"
+}, {
+  "name": "Peapod",
+  "cls": "peapod_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/peapod.png"
+}, {
+  "name": "Mahmee",
+  "cls": "mahmee_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/mahmee.png"
+}, {
+  "name": "Empire CLS",
+  "cls": "empire_cls_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/empire_cls.png"
+}, {
+  "name": "Fankave",
+  "cls": "fankave_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/fankave.png"
+}, {
+  "name": "Vertical Fox",
+  "cls": "vertical_fox_logo",
+  "img_url": "//s3.amazonaws.com/website-2017/images/clients/logo/vertical_fox.png"
+}]

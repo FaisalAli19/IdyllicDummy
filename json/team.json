@@ -1,0 +1,229 @@
+{
+  "core_team": [{
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/natalie.png",
+    "other_img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/natalie_bw.png",
+    "name": "Natalie Garrett",
+    "location": "Boulder, CO",
+    "short_name": "Natalie",
+    "title": "",
+    "cls": "natalie_core_team",
+    "quote": "An honest individual who believes in sharing information as they are. Her knowledge in business modeling and fundraising continues to be the cornerstone conversation for our customers."
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/jinesh.png",
+    "other_img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/jinesh_bw.png",
+    "name": "Jinesh Parekh",
+    "location": "Pune, India",
+    "short_name": "Jinesh",
+    "title": "Founder",
+    "cls": "jinesh_core_team",
+    "quote": "An entrepreneur focussing on building authentic relationships. People come before money. Money might be our need but has never been the purpose of our existence."
+  },{
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/gaurav.png",
+    "other_img_url": "//s3.amazonaws.com/website-2017/images/team/core_team/gaurav_bw.png",
+    "name": "Gaurav Gaglani",
+    "location": "Mumbai, India",
+    "short_name": "Gaurav",
+    "title": "Co-Founder",
+    "cls": "gaurav_core_team",
+    "quote": "Everything he takes up always reaches the finish line. His systematic and detailed approach is what makes it enjoyable to work with him."
+  }],
+
+  "mobile_team": [{
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/javal.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/javal.png",
+    "name": "Javal Nanda",
+    "short_name": "Javal",
+    "top": "30px",
+    "title": "Lead iOS Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/pradeep.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/pradeep.png",
+    "name": "Pradeep Negi",
+    "short_name": "Pradeep",
+    "top": "19px",
+    "title": "Android Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/deepti.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/deepti.png",
+    "name": "Deepti Thakur",
+    "short_name": "Deepti",
+    "title": "Project Manager | SCRUM | Kanban"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/omkaar.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/omkaar.png",
+    "name": "Omkaar Deshpande",
+    "short_name": "Omkaar",
+    "top": "28px",
+    "title": "Web and Mobile automation tester"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/pushkar.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/pushkar.png",
+    "name": "Pushkar Deshpande",
+    "short_name": "Pushkar",
+    "title": "Web and Mobile automation tester"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/pritam.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/pritam.png",
+    "name": "Preetam Jadakar",
+    "short_name": "Preetam",
+    "top": "24px",
+    "title": "Sr. iOS developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/poonam.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/poonam.png",
+    "name": "Poonam Pujari",
+    "short_name": "Poonam",
+    "title": "Communication Specialist"
+  }],
+
+  "management_team": [{
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/dhaval.png",
+    "name": "Dhaval Kapadia",
+    "short_name": "Dhaval",
+    "title": "Mr. Money"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/asmita.png",
+    "name": "Asmita Apte",
+    "short_name": "Asmita",
+    "title": "Happiness Manager"
+  }],
+
+  "web_team": [{
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/viren.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/viren.png",
+    "name": "Virendra Negi",
+    "short_name": "Virendra",
+    "title": "Ruby & Java Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/pandurang.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/pandurang.png",
+    "name": "Pandurang Waghulde",
+    "short_name": "Pandurang",
+    "title": "Ruby on Rails Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/aniket.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/aniket.png",
+    "name": "Aniket Joshi",
+    "short_name": "Aniket",
+    "top": "26px",
+    "title": "Lead Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/swapnali.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/swapnali.png",
+    "name": "Swapnali Khamkar",
+    "short_name": "Swapnali",
+    "title": "Operations"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/chetan_t.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/chetan_t.png",
+    "name": "Chetan Thakkar",
+    "short_name": "Chetan T",
+    "top": "31px",
+    "title": "Lead Rails developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/muktesh.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/muktesh.png",
+    "name": "Muktesh Deshpande",
+    "short_name": "Muktesh",
+    "title": "Ruby Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/swapnil.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/swapnil.png",
+    "name": "Swapnil Gourshete",
+    "short_name": "Swapnil",
+    "top": "38px",
+    "title": "Ruby | Rails Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/snehal_s.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/snehal_s.png",
+    "name": "Snehal Singh",
+    "short_name": "Snehal S",
+    "title": "Ruby on Rails Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/abdul.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/abdul.png",
+    "name": "Abdul Ansari",
+    "short_name": "Abdul",
+    "title": "Dot Net developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/sonali.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/sonali.png",
+    "name": "Sonali Sorte",
+    "short_name": "Sonali",
+    "title": "Manual and automation testing"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/gaurav_m.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/gaurav_m.png",
+    "name": "Gaurav Mamidwar",
+    "short_name": "Gaurav M",
+    "top": "37px",
+    "title": "Ruby Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/chetan_s.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/chetan_s.png",
+    "name": "Chetan Sawai",
+    "short_name": "Chetan S",
+    "title": "Project Manager, SCRUM, Kanban"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/supriya.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/supriya.png",
+    "name": "Supriya Mane",
+    "short_name": "supriya",
+    "title": "Manual and automation testing"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/vignesh.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/vignesh.png",
+    "name": "Vignesh Selvaraj",
+    "short_name": "Vignesh",
+    "title": "Front end expert"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/divya.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/divya.png",
+    "name": "Divya Kolambkar",
+    "short_name": "Divya",
+    "title": "Front end Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/omkar.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/omkar.png",
+    "name": "Omkar Nazarkar",
+    "short_name": "Omkar",
+    "top": "30px",
+    "title": "Front end Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/kapil.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/kapil.png",
+    "name": "Kapil Bhosale",
+    "short_name": "Kapil",
+    "title": "Microservices | Ruby | Rails Developer"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/radhe.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/radhe.png",
+    "name": "Radheshyam Nazarkar",
+    "short_name": "Radhe",
+    "title": "Front end expert"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/rohinee.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/rohinee.png",
+    "name": "Rohinee Matale",
+    "short_name": "Rohinee",
+    "title": "Ruby on Rails Expert"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/verita.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/verita.png",
+    "name": "Verita Dsouza",
+    "short_name": "Verita",
+    "title": "Operations"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/ravi.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/ravi.png",
+    "name": "Ravi Mudaliyar",
+    "short_name": "Ravi",
+    "title": "Operations"
+  }, {
+    "img_url": "//s3.amazonaws.com/website-2017/images/team/original/meenakshi.png",
+    "thumbnail_img_url": "//s3.amazonaws.com/website-2017/images/team/thumbnail/meenakshi.png",
+    "name": "Meenakshi Naik",
+    "short_name": "Meenakshi",
+    "title": "PHP & Ruby on Rails expert"
+  }]
+}

@@ -1,0 +1,2 @@
+For URL: https://idyllic.co/
+<link rel="canonical" href="https://idyllic.co/" />

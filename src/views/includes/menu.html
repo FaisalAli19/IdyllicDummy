@@ -1,0 +1,85 @@
+{%
+    set studio_menus = [{
+        name: 'User Experience',
+        url: paths.user_experience_path,
+        page_name: 'user_experience'
+    }, {
+        name: 'Web Dev',
+        url: paths.web_dev_path,
+        page_name: 'web_dev'
+    }, {
+        name: 'Mobile Dev',
+        url: paths.mobile_dev_path,
+        page_name: 'mobile_dev'
+    }, {
+        name: 'About Us',
+        url: paths.about_us_path,
+        page_name: 'about_us'
+    }]
+%}
+<nav>
+    <!-- Logo Here -->
+    <a class="logo" href="/">
+        <img src="../../images/Navbar/logo.png" alt="idyllic logo">
+        <p>Idyllic</p>
+    </a>
+    <!-- Nav List Here -->
+    <img class="menu-icon" src="../../images/Navbar/menu.svg" alt="menu icon">
+    <div class="nav-container">
+        <ul class="nav-list">
+            <li class="nav-list-item sub"><a href="#">Services</a>
+                <div class="nav-list-subnav services">
+                    <ul>
+                        <li><a href="{{ paths.mobile_dev_path }}">Mobile Dev</a></li>
+                        <li><a href="{{ paths.web_dev_path }}">Web Dev</a></li>
+                        <li><a href="{{ paths.user_experience_path }}">UX Design</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-list-item sub"><a href="#">Work</a>
+                <div class="nav-list-subnav work">
+                    <ul>
+                        <li><a href="{{ paths.creates_path }}">Projects</a></li>
+                        <li><a href="{{ paths.creates_path }}#our-clients">Clients</a></li>
+                        <li><a href="https://clutch.co/profile/idyllic" target="_blank">Client Reviews</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-list-item"><a href="{{ paths.stories_path }}">Blog</a></li>
+            <li class="nav-list-item sub"><a href="#">Company</a>
+                <div class="nav-list-subnav company">
+                    <ul>
+                        <li><a href="{{ paths.about_us_path }}">About Us</a></li>
+                        <li><a href="{{ paths.careers_path }}">Careers</a></li>
+                        <li><a href="#footer">Locations</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="social-contact">
+        <div class="social">
+            <img class="heart" src="../../images/Navbar/icon_heart.png" alt="heart">
+
+            <ul class="social-list">
+                <li class="social-list-container">
+                    <a href="http://www.linkedin.com/company/idyllic-software" target="_blank">
+                        <img src="../../images/Navbar/icon_linkedIn.png" alt="linkedin">
+                    </a>
+                </li>
+                <li class="social-list-container">
+                    <a href="https://twitter.com/idyllicsoftware" target="_blank">
+                        <img src="../../images/Navbar/icon_twitter.png" alt="twitter logo">
+                    </a>
+                </li>
+                <li class="social-list-container">
+                    <a href="http://www.facebook.com/pages/Idyllic-Software/255269021190875" target="_blank">
+                        <img src="../../images/Navbar/icon_facebook.png" alt="facebook logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <a class="contact-us" id="contact-us" href="#start-project">Contact Us</a>
+    </div>
+</nav>

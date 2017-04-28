@@ -1,0 +1,547 @@
+@import "includes/variables";
+@import "includes/mixins";
+
+.menu-open {
+	overflow: hidden;
+}
+.submenu-wrap {
+  li {
+    display: inline-block;
+    margin-right: 34px;
+    a {
+      @include boldFont;
+      font-size: 16px;
+      letter-spacing: 4px;
+      color: $studio-orange-color;
+      position: relative;
+      >span {
+        z-index: 1;
+        position: relative;
+      }
+      &:hover, &.active-page {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        font-weight: 700;
+        &:before {
+          content: url('//s3.amazonaws.com/website-2017/images/svg/red-brush.svg');
+          position: absolute;
+          bottom: 0;
+          top: 12px;
+          width: 80px;
+          left: 10%;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
+.overlayIn {
+	.header-section-wrap {
+		top: -100px;
+	}
+}
+
+.fixedPosition {
+	position: fixed;
+	z-index: 100;
+}
+
+.staticPosition {
+	position: static;
+}
+
+.hideText {
+	opacity: 0;
+	display: none;
+}
+
+.showText {
+	opacity: 1;
+	display: block;
+}
+
+.menu-popup-icon.fixedPosition:last-child {
+	right: 20px;
+}
+
+.header-section-wrap {
+  display: inline-table;
+  padding: 0 20px;
+  position: fixed;
+  text-align: center;
+  top: 20px;
+	transition: top 0.5s;
+  width: 100%;
+	z-index: 4;
+	display: flex;
+	@include browserCssFlex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  div {
+    vertical-align: top;
+  }
+  .menu-popup-icon {
+    padding: 0;
+    width: 54px;
+    span {
+    	cursor: pointer;
+    }
+		svg {
+			box-shadow: 0 0 15px rgba(185, 185, 185, 0.4);
+			&:hover .brand-orange-fill-color {
+      	fill: #ffac84;
+      }
+    }
+    .header-icon-label {
+    	@include boldFont;
+    	color: $studio-orange-color;
+    	font-size: 14px;
+    	line-height: 18px;
+    	text-transform: uppercase;
+    	text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    &.fixedPosition.mail-icon-wrap {
+	    right: 20px;
+		}
+  }
+  .heading-logo-wrap {
+    display: inline-block;
+    background: rgba(255,255,255,.2);
+    padding: 20px;
+	  &.fankave-icon {
+		  background: #33a3f8;
+		  padding-right: 10px;
+	  }
+	  &.bridj-icon {
+		  padding: 10px;
+		  background: #fff;
+	  }
+  }
+  .scrollHeading {
+		background: #fff;
+	    padding: 15px 0 11px 34px;
+    	box-shadow: 0 0 15px rgba(185, 185, 185, 0.4);
+    	height: 54px;
+        margin-top: 60px;
+    ul {
+    	vertical-align: -webkit-baseline-middle;
+    	margin-bottom: 0;
+    }
+    .submenus li a {
+	    &:hover, &.active-page {
+	    	color: #000;
+	    }
+	  }
+	}
+}
+
+.page-heading {
+    margin: auto;
+    padding-top: 48px;
+	width: auto;
+	p {
+		@include dryBrushFont;
+		font-size: 60px;
+        color: #fff;
+        margin-bottom: 0;
+	}
+}
+
+.breadcrumb-path {
+	position: absolute;
+  left: 70px;
+  background-color: #fff;
+  height: 54px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 65px;
+  box-shadow: 0 0 15px rgba(185, 185, 185, 0.4);
+  .breadcrumb-subpath {
+  	display: flex;
+  	@include browserCssFlex;
+  	height: 100%;
+  	align-items: center;
+  	-webkit-align-items: center;
+  	justify-content: space-between;
+  	-webkit-justify-content: space-between;
+  	padding: 20px;
+  	@include semiBoldFont;
+  	p {
+  		font-size: 14px;
+  		margin: 0px;
+  		@include boldFont;
+  		padding-right: 20px;
+  		a:hover {
+  			text-decoration: none;
+  			color: $studio-orange-color;
+  		}
+  	}
+  	.subpath-text {
+  		color: $studio-dark-black-color;
+  		position: relative;
+  		&:before {
+        content: url('//s3.amazonaws.com/website-2017/images/svg/red-brush.svg');
+        position: absolute;
+        bottom: 0;
+        top: 12px;
+        width: 80px;
+        left: 10%;
+        z-index: 0;
+      }
+  	}
+    .arrow-right {
+    	width: 0;
+  		height: 0;
+  		padding-right: 20px;
+  		border-top: 5px solid transparent;
+  		border-bottom: 5px solid transparent;
+  		border-left: 10px solid $studio-orange-color;
+    }
+	}
+}
+
+.close-btn-wrap {
+	@include posAbs(15px, 15px);
+  span {
+  	width: 16px;
+  	text-shadow: none;
+    opacity: 1;
+    @include lightFont;
+    &:hover {
+		opacity: 1;
+		.brand-white-fill-color {
+			fill: $studio-orange-color;
+		}
+    }
+  }
+}
+
+.header-section-wrap {
+  .submenus {
+      @extend .submenu-wrap;
+  }
+}
+
+.menu-section-wrap {
+	padding: 20px;
+  height: 100vh;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+}
+.menu-container {
+  &.opaque-popup {
+  	background: $studio-dark-black-color;
+  	position: relative;
+  }
+  .menu-main-section {
+  	display: flex;
+  	@include browserCssFlex;
+  	width: 100%;
+		div.menu-wrapper {
+			background: $studio-dark-black-color;
+    	width: 70%;
+			padding: 50px;
+			> ul {
+				margin-bottom: 0;
+				> li {
+			    margin-bottom: 20px;
+			    position: relative;
+			    -webkit-transition: margin-left 0.5s;
+			    transition: margin-left 0.5s;
+			    &:last-child {
+			    	margin-bottom: 0;
+			    }
+			    > a {
+			      @include boldFont;
+			      text-transform: uppercase;
+			      font-size: 46px;
+			      letter-spacing: 8px;
+			      color: #53626a;
+			      display: block;
+			      > span {
+				      @include dryBrushFont;
+				      color: #fff;
+				      letter-spacing: 2px;
+				      top: -24px;
+				      position: relative;
+				      margin: 0px;
+				      font-size: 20px;
+				      display: block;
+	    				text-transform: initial;
+				    }
+			    }
+			    &.studio-menu:hover {
+			    	.submenus {
+			      	display: block;
+			      	margin-bottom: 26px;
+	            @extend .submenu-wrap;
+	            li {
+	                a {
+	                  @include boldFont;
+	                  text-transform: uppercase;
+	                }
+	            }
+	        	}
+	        	> a > span {
+	        		display: none;
+	        	}
+			    }
+			    &:hover {
+			      margin-left: 30px;
+			      &:before {
+			        width: 9999px;
+			        height: 3px;
+			        position: absolute;
+			        content: " ";
+			        background: $studio-orange-color;
+			        right: 100%;
+			        top: 34px;
+			        margin-right: 20px;
+			      }
+			      a {
+			        text-decoration: none;
+			        color: #f3f3f3;
+			      }
+			      span.menu-subtitle {
+			      	color: $studio-orange-color;
+			      }
+			    }
+			    .submenus {
+	          display: none;
+	        }
+			  }
+			}
+		}
+		div.contact-info-wrapper {
+			display: flex;
+			@include browserCssFlex;
+			justify-content: center;
+			-webkit-justify-content: center;
+    	flex-direction: column;
+    	-webkit-flex-direction: column;
+    	width: 30%;
+    	background: $studio-blue-dark-color;
+    	padding: 50px;
+    	h3 {
+    		@include boldFont;
+    		text-transform: uppercase;
+	      font-size: 30px;
+    		letter-spacing: 6px;
+    		color: #53626c;
+    	}
+    	p {
+    		@include lightFont;
+    		font-size: 18px;
+		    color: #fff;
+		    letter-spacing: 4px;
+		    color: #f3f3f3;
+    	}
+    	a:hover {
+    		color: $studio-orange-color;
+    		text-decoration: none;
+    	}
+    	.career-link a {
+    		position: relative;
+    		z-index: 1;
+				&:hover {
+					color: #fff;
+					&:before {
+	          content: url('//s3.amazonaws.com/website-2017/images/svg/red-brush.svg');
+	          position: absolute;
+	          bottom: 0;
+	          top: 12px;
+	          width: 80px;
+	          left: 10%;
+	          z-index: -1;
+	        }
+				}
+			}
+		}
+		.social-info {
+			.brand-white-fill-color,
+			.dark-white-fill-color {
+		    fill: #4cade7;
+			}
+			i {
+		    margin-right: 5px;
+			}
+		}
+	}
+	.email-section-wrap {
+		background: $studio-dark-black-color;
+		border-top: 1px solid #3e454a;
+		padding: 20px 0;
+		.email-section {
+			width: 80%;
+    	margin: 0 auto;
+			p {
+				width: 50%;
+				float: left;
+	    	padding: 16px;
+	    	@include lightFont;
+	    	font-size: 14px;
+	    	text-align: right;
+	    	color: #fff;
+	    	margin-bottom: 0;
+	    	letter-spacing: 3px;
+			}
+			.email-form-wrap {
+				width: 50%;
+		    float: right;
+		    background: #353c41;
+		    input {
+		    	color: #fff;
+		    	width: 70%;
+		    }
+		    .form-control {
+		    	height: 40px;
+		    }
+		    button {
+		    	float: right;
+    			margin-right: 5px;
+		    }
+			}
+		}
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+}
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+	.menu-container {
+		.email-section-wrap {
+			padding: 10px 0;
+			.email-section {
+				width: 100%;
+	  		padding: 0 10px;
+	  		p {
+	  			float: none;
+			    width: 100%;
+			    text-align: center;
+			    padding: 10px 0;
+	  		}
+	  		.email-form-wrap {
+	  			float: none;
+	  			width: 100%;
+	  			input {
+	  				width: 50%;
+	  			}
+	  		}
+			}
+		}
+	}
+}
+@media screen and (max-width: 992px) {
+	.header-section-wrap .scrollHeading {
+		height: auto;
+	}
+}
+@media screen and (min-width: $device-iphone-xs) and (max-width: $device-sm) {
+	.menu-section-wrap {
+    padding: 10px;
+	}
+	.close-btn-wrap {
+    right: 4%;
+    .brand-white-fill-color {
+	    fill: $studio-orange-color;
+		}
+	}
+	.mobile-submenu {
+		position: absolute;
+    top: 110px;
+    width: 100%;
+    overflow-x: scroll;
+    ul {
+	    width: 633px;
+	    text-align: left;
+	    padding-bottom: 15px;
+	    li:last-child {
+	    	margin-right: 0;
+	    }
+    }
+	}
+	.header-section-wrap {
+		padding: 0 15px;
+		top: 15px;
+		.menu-popup-icon.fixedPosition.mail-icon-wrap {
+	    right: 15px;
+		}
+		.page-heading p {
+			font-size: 40px;
+		}
+	}
+	.menu-container .menu-main-section {
+		display: block;
+		div.menu-wrapper {
+			> ul > li {
+				> a {
+			    font-size: 30px;
+    			line-height: 18px;
+					span {
+						font-size: 16px;
+	    			top: -3px;
+					}
+				}
+				.submenus {
+					display:block;
+					margin-top: 7px;
+    			margin-left: 15px;
+					li {
+						margin-bottom: 10px;
+						a {
+						 	@include boldFont;
+						 	text-transform: uppercase;
+    					letter-spacing: 4px;
+						}
+					}
+					span {
+						color: $studio-orange-color;
+						font-size: 16px;
+					}
+				}
+				&:hover {
+        	margin-left: 0;
+        	&:before {
+        		background: none;
+        	}
+        }
+        &.studio-menu {
+        	&:hover {
+        		> a {
+        			color: #53626a;
+        		}
+	        	.submenus li {
+	        		margin-right: 0;
+	        		display: block;
+	        	}
+        	}
+        	.menu-subtitle {
+        		display: none;
+        	}
+        }
+			}
+		}
+		.contact-info-wrapper {
+			h3 {
+				margin-top: 0;
+			}
+			p a {
+				font-size: 16px;
+			}
+		}
+		div.menu-wrapper, div.contact-info-wrapper{
+			display: block;
+			width: 100%;
+	    padding: 30px;
+		}
+	}
+	.menu-container.opaque-popup {
+		overflow-y: scroll;
+    height: 100%;
+	}
+	.career-link h3 {
+		margin-bottom: 0;
+	}
+}

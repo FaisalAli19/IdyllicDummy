@@ -1,0 +1,263 @@
+@import "includes/variables";
+@import "includes/mixins";
+
+.page-heading p {
+  text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.rails-viewport-section {
+  @include backgroundCoverImage('//s3.amazonaws.com/website-2017/images/tech/ruby_on_rails/banner.jpg');
+  @include viewport_circle_section(0.5);
+  @include regularFont;
+  .rails-viewport {
+    @include viewPortOverlay;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    text-align: center;
+    h1 {
+      font-size: 28px;
+      color: $studio-orange-color;
+    }
+    .divider {
+      display: inline-block;
+      width: 30px;
+      border-bottom: 1px solid #fff;
+      margin: 30px;
+    }
+    p {
+      margin-top: 0px;
+      @include lightFont;
+      text-align: center;
+      letter-spacing: 1px;
+      max-width: 400px;
+      font-size: 16px;
+    }
+  }
+}
+
+.folk-love-us-section {
+  position: relative;
+  .container {
+    width: 100%;
+    margin-top: -140px;
+  }
+  .designation-wrap {
+    letter-spacing: 1.5px;
+    @include semiBoldFont;
+  }
+  .brand-color {
+    @include crimsonTextFont;
+    font-size: 22px;
+  }
+  .play-icon {
+    position: relative;
+    top: 22px;
+    left: 4px;
+  }
+}
+
+.how_we_work_section {
+  margin-top: 108px;
+  .container {
+    max-width: 800px;
+    width: 100%;
+  }
+    ul {
+        font-size: 20px;
+        @include displayFlexCenter;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        letter-spacing: 2px;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        li {
+            margin: 30px 0px;
+            display: flex;
+            @include browserCssFlex;
+            float: none;
+            align-items: center;
+            -webkit-align-items: center;
+            .number {
+                color: $studio-orange-color;
+                font-size: 40px;
+                @include lightFont;
+            }
+            .text-span {
+                width: 80%;
+                margin-left: 15px;
+                color: $studio-dark-black-color;
+            }
+            .red-circle {
+                position: absolute;
+                left: 24px;
+                @include circle(70px);
+                background: rgba(242,108,79,0.2);
+            }
+        }
+    }
+}
+
+.how_we_work_with_them_section {
+    margin-top: 108px;
+    position: relative;
+    margin-bottom: 220px;
+    .tab-headers {
+        @include backgroundCoverImage('//s3.amazonaws.com/website-2017/images/tech/ruby_on_rails/how_we_worked.jpg', 100% 100%);
+        @include displayFlexCenter;
+        flex-flow: column wrap;
+        -webkit-flex-flow: column wrap;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        height: 510px;
+        .f-brush {
+          color: #fff;
+          margin-bottom: 40px;
+          margin-top: 108px;
+          text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+        }
+        .nav-tabs.submenus {
+          li {
+            a {
+              color: $studio-orange-color;
+              &:hover, &.active {
+                color: #fff;
+              }
+            }
+            &.active {
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+    }
+    .tab-body {
+        position: absolute;
+        width: 100%;
+        top: 268px;
+        img {
+            margin-bottom: 50px;
+            &.vertical_fox_logo {
+                width: 230px;
+            }
+        }
+    }
+}
+
+.our-clients-section {
+  margin-top: 108px;
+}
+
+@media (max-width: $device-sm) {
+  .how_we_work_with_them_section {
+    .tab-wrapper {
+      overflow-x: scroll;
+      width: 100%;
+    }
+    .nav-tabs.submenus {
+      width: 620px;
+      padding-bottom: 5px;
+      li {
+        margin: 0px 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .how_we_work_with_them_section {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: $device-xs) {
+  .how_we_work_with_them_section {
+    margin-bottom: 225px;
+  }
+}
+@media (max-width: $device-sm) {
+  .rails-viewport-section {
+    .rails-viewport {
+      h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      p {
+        font-size: 16px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+    }
+  }
+  .header-section-wrap {
+    .page-heading {
+      p { font-size: 42px; }
+    }
+  }
+  .folk-love-us-section {
+    .container {
+      margin-top: -120px;
+    }
+    .center-box-wrap {
+      padding: 25px;
+      font-size: 16px;
+    }
+  }
+  .how_we_work_section {
+    margin-top: 50px;
+  }
+  .how_we_work_with_them_section {
+    margin-top: 50px;
+    .tab-headers {
+        .f-brush {
+          margin-top: 80px;
+          padding: 0px 15px;
+        }
+    }
+    .tab-body {
+      top: 278px;
+      .center-box-wrap {
+        padding: 25px;
+        font-size: 16px;
+      }
+    }
+    .tab-wrapper {
+      overflow-x: scroll;
+      width: 100%;
+    }
+    .nav-tabs.submenus {
+      width: 550px;
+      padding-bottom: 5px;
+      li {
+        margin: 0px 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .our-clients-section {
+    margin-top: 50px;
+  }
+  .next-up-section {
+   .next-up {
+     .fs40 {
+      font-size: 52px;
+     }
+    }
+  }
+}
+
+@media (max-width: $device-md) {
+  .how_we_work_section ul {
+    margin-top: 0;
+    li {
+      width: 100%;
+      padding: 0;
+      .text-span {
+        width: 100%;
+      }
+    }
+  }
+}

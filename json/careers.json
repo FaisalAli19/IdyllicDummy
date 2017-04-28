@@ -1,0 +1,264 @@
+{
+  "design": [{
+    "id": "ux_designer",
+    "path": "ux-designer",
+    "title": "User Experience Designer",
+    "category": "ux",
+    "page_title": "User experience designer | Mumbai, Pune",
+    "meta_description": "We are looking for user experience designers who can truly create wow experience.",
+    "meta_keywords": "User experience, Information architecture, Wireframes.",
+    "resonate_list": [
+      "Understand when to use personas and when they are utterly useless.",
+      "You can take the user on a wonderful journey",
+      "Continuously explore better ways to design.",
+      "Understand enough front end development to not give an abstract art to code.",
+      "You have great command over tools, as long as you can choose them yourself.",
+      "Learning newer tools for efficiency. Powerpoint is also a tool.",
+      "Fun team to hang out with.",
+      "Participate for the beers in our Beer Friday's."
+    ]
+  }, {
+    "id": "graphics_designer",
+    "path": "graphics-designer",
+    "title": "Graphics Designer",
+    "category": "ux",
+    "page_title": "Graphics artist | Mumbai, Pune",
+    "meta_description": "We are looking for graphics artists with an eye for colors and beauty.",
+    "meta_keywords": "graphics designer, photoshop, sketch, colors, art.",
+    "resonate_list": [
+      "Colors are magical. Black is a color.",
+      "Use colors for their psychologyical traits.",
+      "Go crazy with trying different color combinations each time.",
+      "Love for making things look more awesome every single time.",
+      "You have great command over tools, as long as you can choose them yourself.",
+      "Learning newer tools for efficiency.",
+      "Fun team to hang out with.",
+      "Participate for the beers in our Beer Friday's."
+    ]
+  }],
+
+  "development": [{
+    "id": "ruby_on_rails_developer",
+    "path": "ruby-on-rails-developer",
+    "title": "Ruby on Rails Developer",
+    "category": "dev",
+    "page_title": "Ruby on Rails Developer | Mumbai, Pune",
+    "meta_description": "We are looking for experienced Ruby on Rails developers.",
+    "meta_keywords": "Ruby on Rails, MongoDB, Redis, MySql, Microservices.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Experience in building applications with Rails, Sinatra or Padrino.",
+      "Experience with relational and non relational databases like Mysql, Postgres, Mongodb.",
+      "Good understanding of message queues like Beanstalkd, RabbitMQ & messaging protocols like XMPP.",
+      "Familiarity with one other language like C, Go, Java, Lisp",
+      "Chance to do Open Source development.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "javascript_developer",
+    "path": "javascript-developer",
+    "title": "Javascript Developer",
+    "category": "frontend",
+    "page_title": "Javascript, HTML/CSS Developer | Mumbai, Pune",
+    "meta_description": "We are looking for semantic front end developer with awesome HTML and CSS skills.",
+    "meta_keywords": "semantic html, html5, css, css3, stylesheets, web developer.",
+    "resonate_list": [
+      "You Understand the grammar in DOM.",
+      "You find vulgarity in extra DOM elements added for mere styling purposes.",
+      "You understand jQuery is not the entire world of Javascript.",
+      "You Understand the semantics in class names.",
+      "You Write Scalable & Maintainable CSS and Javascript.",
+      "You Reset first to zero the cross browser weirdness with reset.css.",
+      "You Understand the Browser based box model.",
+      "You enhance progressively.",
+      "You understand MVC in the front end world.",
+      "You write behavior with JS not content.",
+      "You understand that OOP is not a javascript tack on.",
+      "To your work, all you need is TextEdit.",
+      "You live on the edge of what browsers have to offer. A new WebKit feature or Javascript API means a new experiment or a personal project.",
+      "You understand the misgivings of javascript and rather than complaining you work around it. Less Whining more Grinding.",
+      "You understand the misgivings of javascript and rather than complaining you work around it. Less Whining more Grinding.",
+      "General knowledge of and opinions on the Javascript open-source community: frameworks, micro-frameworks, async loaders, testing, compilers, mvc-frameworks and the rest. Contributions to open-source Javascript projects and personal projects matter more than education."
+    ]
+  }, {
+    "id": "ios_developer",
+    "path": "ios-developer",
+    "title": "iOS Developer",
+    "category": "mobile",
+    "page_title": "iOS Developer | Mumbai, Pune",
+    "meta_description": "We are looking for iOS developer with swift and Objective C.",
+    "meta_keywords": "iOS Developer, swift developer, Objective C developer.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Chance to play with beacons.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "java_developer",
+    "path": "java-developer",
+    "title": "Java Developer",
+    "category": "dev",
+    "page_title": "Java Developer | Mumbai, Pune",
+    "meta_description": "We are looking for Java developer with acute understanding of the webframeworks and MVC models.",
+    "meta_keywords": "Java Developer, J2EE developer, Struts, Spring, Hibernate, Play framework, microservices.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "Have already explored play and scala.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Constantly looking at better ways of building things.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "html_css_developer",
+    "path": "html-css-developer",
+    "title": "Front end developer (HTML/CSS)",
+    "category": "frontend",
+    "page_title": "HTML/CSS Developer | Mumbai, Pune",
+    "meta_description": "We are looking for semantic front end developer with awesome HTML and CSS skills.",
+    "meta_keywords": "semantic html, html5, css, css3, stylesheets, web developer.",
+    "resonate_list": [
+      "You're Minimal: Use fewer elements of expression.",
+      "You’re General: Cover more ground.",
+      "You: Unify the two.",
+      "You Understand the grammar in DOM",
+      "You find vulgarity in extra DOM elements added for mere styling purposes.",
+      "You Understand the semantics in class names.",
+      "You Write Scalable & Maintainable CSS.",
+      "You Reset first to zero the cross browser weirdness with reset.css.",
+      "You Understand the Browser based box model.",
+      "You enhance progressively.",
+      "You understand MVC in the front end world.",
+      "To your work, all you need is TextEdit.",
+      "You live on the edge of what browsers have to offer. A new WebKit feature or Javascript API means a new experiment or a personal project.",
+      "You understand the misgivings of javascript and rather than complaining you work around it. Less Whining more Grinding.",
+      "You are driven to realize beautiful designs in to beautiful functional apps."
+    ]
+  }, {
+    "id": "android_developer",
+    "path": "android-developer",
+    "title": "Android Developer",
+    "category": "mobile",
+    "page_title": "Android Jobs | Mumbai, Pune",
+    "meta_description": "At Idyllic Software we are looking for passionate Android Developers.",
+    "meta_keywords": "Android Jobs, Android Developer, Careers in Android Development.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Chance to play with beacons.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "dot_net_developer",
+    "path": "dot-net-developer",
+    "title": ".NET Developer",
+    "category": "dev",
+    "page_title": ".NET Developer  | Mumbai, Pune",
+    "meta_description": "We are looking for sharp ASP.NET, C# developers with understanding of microservices.",
+    "meta_keywords": ".NET, ASP.NET, C#, MVC, microservices.",
+    "resonate_list": [
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Constantly learning newer languages and better ways of doing things.",
+      "Chance to experiment with latest and greatest architectures.",
+      "Microservices does not sound new to you.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "node_js_developer",
+    "path": "node-js-developer",
+    "title": "Node.js Developer",
+    "category": "dev",
+    "page_title": "Node.js Developer | Mumbai, Pune",
+    "meta_description": "We are looking for experienced node.js developers.",
+    "meta_keywords": "Node.js Developer, Javascript, Microservices.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Chance to do Open Source development.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }, {
+    "id": "xamarin_developer",
+    "path": "xamarin-developer",
+    "title": "Xamarin Developer",
+    "category": "dev",
+    "page_title": "Xamarin Developer | Mumbai, Pune",
+    "meta_description": "We are looking for Xamarin developers for mobile development.",
+    "meta_keywords": "Xamarin, C#, Mobile developer.",
+    "resonate_list": [
+      "Freedom to choose your tools from MacBook Pro to Ubuntu and vim to Netbeans.",
+      "8 hour work day.",
+      "Opportunity to build something you believe in.",
+      "Chance to play with beacons.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Geek sessions on Beer Friday's."
+    ]
+  }],
+
+  "business": [{
+    "id": "business_analyst",
+    "path": "business-analyst",
+    "title": "Business Analyst",
+    "category": "ba",
+    "page_title": "SCRUM Master Jobs | Mumbai, Pune",
+    "meta_description": "At Idyllic Software we are looking for passionate Business Analysts with Agile | Scrum | XP experience.",
+    "meta_keywords": "Agile Business Analyst| SCRUM Master | XP Professional Jobs,",
+    "resonate_list": [
+      "Take complete charge of the projects you are working on.",
+      "Manage customer expectations.",
+      "Fly onsite to US to our customers if you see the need.",
+      "Help the development team with requirements.",
+      "Take pride in saying the blatant truth.",
+      "No fluff, just stuff.",
+      "Answerable to no one but your work.",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams.",
+      "Fun team to hang out with.",
+      "Enjoy the beer fridays."
+    ]
+  }, {
+    "id": "communications_specialist",
+    "path": "communications-specialist",
+    "title": "Communications Specialist",
+    "category": "general",
+    "page_title": "Communications Specialist  | Mumbai, Pune",
+    "meta_description": "If you are a social media person with excellent command over English, we need you.",
+    "meta_keywords": "Communications specialist, social media.",
+    "resonate_list": [
+      "Enjoy learning new words and follow spelling bee religiously",
+      "Experiment and get a thrill in going crazy with positioning with words",
+      "Freedom to communicate casually",
+      "Put sense of humor and authenticity in your language",
+      "You can write the same sentence in 100 different ways and enjoy doing it",
+      "Answerable to no one but your work",
+      "No ladder climbing, but a flat ground to run and reach out to your dreams",
+      "Fun team to hang out with."
+    ]
+  }]
+}

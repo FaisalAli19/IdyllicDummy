@@ -1,0 +1,22 @@
+[{
+  "url": "/blog/role-playing-user-experience-design-real-case-study/",
+  "image_present": true,
+  "image_url": "/blog/wp-content/uploads/2016/06/role-play-600px.jpg",
+  "header": "UX RESEARCH",
+  "subheader": "Role Playing in User Experience Design — A Real Case Study",
+  "description": "While designing a mobile app for NBA fans, to help them order food inside the stadium, one of the key factors to be considered was the location of the pick up stands. They were located all over the stadium. When the order is ready, fans get a notification that the food is ready for pick up from the nearest stand."
+}, {
+  "url": "/blog/ecommerce-shopping-cart-items-total-cost-cart/",
+  "image_url": "",
+  "image_present": false,
+  "header": "UX RESEARCH",
+  "subheader": "eCommerce Shopping Cart — # of items or the cart value?",
+  "description": "The shopping cart has become critical for e-commerce websites like Amazon, Flipkart, or any other e-commerce company. Shopping cart abandonment is a major challenge and a seamless checkout experience is the holy grail of e-commerce in the online world."
+}, {
+  "url": "/blog/ux-surgeries-interesting-differences-in-b2b-vs-b2c-world/",
+  "image_url": "",
+  "image_present": false,
+  "header": "UX SURGERIES",
+  "subheader": "Interesting Differences in B2B v/s B2C World",
+  "description": "User experience design has really made an impact both enterprise and the consumer digital world. This has resulted in some interesting observations in terms of how clients/product owners respond to UX services, depending on whether the product falls into B2B or a B2C category."
+}]

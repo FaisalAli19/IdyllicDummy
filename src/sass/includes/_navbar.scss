@@ -1,0 +1,1063 @@
+nav{
+    align-items: center;
+    background: $white-color;
+    box-shadow: 0 8px 6px -6px $studio-light-black-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+    a.logo{
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0 10px 20px;
+        text-decoration: none;
+        @include boldFont;
+
+        img{
+            margin-right: 15px;
+        }
+
+        p{
+            color: $studio-light-black-color;
+            text-transform: uppercase;
+        }
+
+        &:hover, &:focus, &:visited, &:active{
+            color: $studio-light-black-color;
+        }
+    }
+
+    .menu-icon{
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 23px;
+    }
+
+    .nav-container{
+        flex-grow: 3;
+    }
+}
+
+// Logo Section Here
+.logo{
+    p{
+        margin: 0;
+    }
+}
+
+//Navlist Here
+.nav-container{
+    flex-grow: 3;
+
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-transform: uppercase;
+
+        .nav-list-item{
+            position: relative;
+
+            a{
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none;
+                @include proximaNova;
+            }
+
+            &:hover > a{
+                color: $studio-orange-color;
+            }
+
+            &:hover > div {
+                opacity: 1;
+                visibility: visible;
+                overflow: visible;
+            }
+
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .nav-list-item{
+
+        .nav-list-subnav{
+            background: $white-color;
+            border-bottom: 5px solid $studio-orange-color;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            box-shadow: 0 5px 5px rgba( $studio-full-black-color, 0.2 );
+            display: block;
+            opacity: 0;
+            overflow: hidden;
+            padding: 10px;
+            position: absolute;
+            top: 80px;
+            transition: all .3s ease .15s;
+            width: 200px;
+            visibility: hidden;
+
+            &.services{
+                top: 60px;
+                left: -35px;
+            }
+
+            &.work{
+                top: 60px;
+                left: -30px;
+            }
+
+            &.company{
+                top: 60px;
+                left: -30px;
+            }
+
+            &::before{
+                content: '';
+                width: 0;
+            	height: 0;
+                top: -9px;
+                left: 35px;
+                position: absolute;
+            	border-left: 7px solid transparent;
+            	border-right: 7px solid transparent;
+            	border-bottom: 9px solid #fff;
+            }
+
+            a{
+                padding: 0 0 0 10px;
+                height: 40px;
+                line-height: 40px;
+                text-transform: capitalize;
+
+                &:hover{
+                    color: $studio-orange-color;
+                }
+            }
+        }
+    }
+}
+
+//Subnav Link Styling
+
+
+//Social and Hire section Here
+.social-contact{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .social{
+        background: $studio-light-gray-color;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 30px;
+        padding: 10px;
+        position: relative;
+        text-decoration: none;
+        width: 30px;
+
+        img.heart{
+            height: 15px;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 15px;
+        }
+
+        &:hover .social-list{
+            opacity: 1;
+            overflow: visible;
+            visibility: visible;
+        }
+
+        .social-list{
+            left: 0;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 60px;
+            transition: all .3s ease .15s;
+            visibility: hidden;
+            z-index: 9999;
+
+            &-container{
+                background: $studio-light-gray-color;
+                border-radius: 50%;
+                height: 30px;
+                padding: 10px;
+                position: relative;
+                text-decoration: none;
+                width: 30px;
+
+                a{
+                    left: 50%;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(-50%, -60%);
+                }
+            }
+
+            &-container:not(:last-child){
+                margin-bottom: 20px;
+            }
+        }
+    }
+    a.contact-us{
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 25px;
+        padding: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        @include proximaNova;
+
+        &:hover{
+            background: $studio-orange-color;
+            color: $white-color;
+
+        }
+    }
+}
+
+/*************************************
+  Mobile Menu starts Here
+**************************************/
+
+
+@media (max-width: $device-xs) {
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                span.arrow-head{
+                    font-size: 16px;
+                }
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0;
+            margin-left: 0;
+            margin-top: 10px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+}
+
+@media (max-width: $device-sm) {
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 20px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+
+    .sub{
+        & > a{
+            &:after{
+                content: '\25bc';
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 850px) {
+    nav{
+        padding-left: 0;
+
+        .nav-container{
+            .nav-list{
+                .nav-list-item:not(:last-child){
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .social-contact{
+            a.contact-us{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:769px) {
+    .nav-list, .social-contact { display:flex !important };
+}
+
+/****************************
+Iphone devices Media Query
+****************************/
+
+// Iphone 6/7 Landscape
+@media only screen and (min-device-width : 414px) and (-webkit-device-pixel-ratio: 3){
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 20px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+
+    .sub{
+        & > a{
+            &:after{
+                content: '\25bc';
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+}
+
+// Iphone 6/7 Portrait
+@media only screen and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 3){
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 20px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+
+    .sub{
+        & > a{
+            &:after{
+                content: '\25bc';
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+}
+
+// iphone 6/7 plus landscape
+@media only screen and (min-device-width : 375px) and (-webkit-device-pixel-ratio: 2){
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 20px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+
+    .sub{
+        & > a{
+            &:after{
+                content: '\25bc';
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+}
+
+// Iphone 6/7 plus portrait
+@media only screen and  (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2){
+    // Basic nav Bar setting
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+
+        .menu-icon{
+            display: block;
+            right: 10px;
+            top: 15px;
+        }
+    }
+
+    //Navlist Here
+    .nav-container{
+        width: 100%;
+
+        .nav-list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+
+
+            .nav-list-item{
+                border-bottom: 2px solid $studio-light-gray-color;
+                padding: 10px;
+                width: 100%;
+
+                a{
+                    align-self: baseline;
+                }
+
+                &:not(:last-child){
+                    margin-right: 0;
+                }
+
+                &:first-child{
+                    border-top: 2px solid $studio-light-gray-color;
+                }
+
+                &:hover > div {
+                    opacity: 1;
+                    visibility: visible;
+                    overflow: visible;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .nav-list-item{
+
+            .nav-list-subnav{
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom: none;
+                background: rgba($studio-light-gray-color, .45);
+                box-shadow: none;
+                display: none;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                padding: 10px;
+                position: static;
+                top: 80px;
+                transition: all .3s ease .15s;
+                width: 100%;
+                visibility: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    //Social and Hire section Here
+    .social-contact{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+
+        .social{
+            margin-bottom: 20px;
+
+            &:hover .social-list{
+                opacity: 1;
+                overflow: visible;
+                visibility: visible;
+            }
+
+            .social-list{
+                display: flex;
+                left: 55px;
+                top: 0;
+
+                &-container:not(:last-child){
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        a.contact-us{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 20px;
+            padding: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover{
+                background: transparent;
+                color: $studio-orange-color;
+
+            }
+        }
+    }
+
+    .sub{
+        & > a{
+            &:after{
+                content: '\25bc';
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+}

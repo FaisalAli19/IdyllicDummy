@@ -1,0 +1,339 @@
+@import "includes/variables";
+@import "includes/mixins";
+
+.web-dev-viewport-section{
+    @include backgroundCoverImage('//s3.amazonaws.com/website-2017/images/web-dev/banner.jpg');
+    @include viewport_circle_section;
+	 .web-dev-viewport{
+     @include viewPortOverlay;
+    }
+    .scroll-button-section {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        a {
+          text-decoration: none;
+          display: inline-block;
+          svg {
+            width: 16px;
+          }
+          .f-brush {
+            margin-top: -20px;
+            color: #fff;
+          }
+          &:hover {
+            text-decoration: none;
+            svg .brand-orange-fill-color {
+              fill: #657682;
+            }
+            .f-brush {
+              color: $studio-orange-color;
+            }
+          }
+        }
+      }
+}
+
+.how-we-do-it-section .nav-links-container .nav-links {
+  li {
+    a {
+      &.design:before {
+        content: 'how';
+      }
+      &.architect:before {
+        content: 'we';
+      }
+      &.build:before {
+        content: 'do';
+      }
+      &.build:after {
+        content: 'it';
+        position: absolute;
+        bottom: -110px;
+        left: -25px;
+        @include dryBrushFont;
+        font-size: 70px;
+        text-transform: lowercase;
+        color: rgba(0, 153, 187, 0.6);
+        z-index: -1;
+        letter-spacing: 8px;
+        text-shadow: none;
+      }
+    } 
+    &.active {
+      a.build:after {
+        left: -55px;
+      }
+    } 
+  }
+}
+
+.section-fix {
+  clear: both;  
+}
+
+.rails-studio-section-wrap {
+  position: relative;
+  .left-circle {
+    @include circle(200px);
+    position: absolute;
+    background: rgba(57,181,74,0.1);
+    bottom: 100px;
+    left: -100px;
+  }
+}
+
+.rails-studio-section {
+  height: 100%;
+  @include displayFlexCenter;
+  margin: 0px auto;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  text-align: center;
+  margin-bottom: 108px;
+  .rails-studio{
+    width: 200px;
+    color: $studio-dark-black-color;
+    @include semiBoldFont;
+    letter-spacing: 1px;
+    line-height: 30px; 
+    margin-bottom: 36px; 
+  }
+  .know-more {    
+    color: $studio-orange-color;
+    @include semiBoldFont;
+    letter-spacing: 1px;
+  }  
+}
+
+.folk-love-us-section {
+  .brand-color {
+    font-family: 'Crimson Text', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+  .designation-wrap {
+    letter-spacing: 1.5px;
+    font-family: "proxima-nova","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+.know-more-tech {
+  position: relative;
+  .left-circle {
+    @include circle(200px);
+    position: absolute;
+    background: rgba(242,108,79,0.1);
+    bottom: -200px;
+    z-index: 1;
+    left: -100px;
+  }
+  @include displayFlexCenter;
+  margin: 108px auto;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  text-align: center;
+  .img-wrap-up {
+      @include displayFlexCenter;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      .img-wrap {
+          width: 800px;
+          margin: 0px auto;
+          @include displayFlexCenter;
+          flex-flow: row wrap;
+          -webkit-flex-flow: row wrap;
+         .img-fix{
+           border-radius: 3px;
+           width: 180px;
+           height: 130px;
+           margin: 15px;
+           box-shadow: 0 0 15px rgba(185, 185, 185, 0.4);
+           background: #fff;
+           padding: 20px;
+           display: flex;
+           @include browserCssFlex;
+           align-items: center;
+           -webkit-align-items: center;
+           img {
+              max-width: 100%; 
+              max-height: 100%;
+              margin: 0 auto;
+           }
+          } 
+      }
+  }   
+}
+
+.team-name-slider {
+  svg:hover .brand-orange-fill-color {
+    fill: #ffac84;
+  }
+}
+
+.slick-slide, .dark-translucent-background {
+  height: 100%;
+  max-height: 622px;
+}
+
+li.slick-slide {
+  padding-bottom: 46px;
+  background-repeat: no-repeat;
+  background-position: 0% 47px;
+  background-clip: content-box;
+}
+
+.how-we-do-it-section {
+ .ls {
+    letter-spacing: 7px;
+ }
+ ul {
+      margin-bottom: 40px;
+    }  
+}
+
+@media (max-width: 767px) {
+  .know-more-tech {
+    height: 100%;
+    .img-wrap-up {
+      .img-wrap {
+          width: 100%;
+      }
+    }
+  }
+  .naked-facts {
+    .naked-facts-wrap {
+      h2 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .next-up-section {
+    .next-up { 
+      span:last-child {
+        font-size: 50px;
+      }
+    }
+  } 
+  .our-thoughts-video-section {
+    .our-thoughts-video {
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      h1 {
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-top: 70px;
+      }
+      p {
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-top: 0;
+      }
+    }
+  }              
+}
+
+@media (min-width: $device-md) {
+  .our-thoughts-video-section {
+    @include circle_mixin(800, 260);
+  }
+}
+
+@media (min-width: $device-lg) {
+  .our-thoughts-video-section {
+    @include circle_mixin(1000, 460);
+  }
+}
+
+@media (max-width: $device-xs) {
+  .our-thoughts-video-section {
+    .btn_watch_video {
+      left: 41%;
+      top: 42%;
+    }
+  }
+  .how-we-do-it-section .carousel-title {
+    font-size: 26px;
+    letter-spacing: 3px;
+  }
+  .how-we-do-it-section .dark-translucent-background {
+    min-height: 612px;
+  }
+  .custom_slick { 
+    .slick-prev-icon {
+      left: -20px;
+    }
+    .slick-next-icon {
+      right: -20px;
+    }  
+  }
+  .web-dev-viewport-section{
+    .web-dev-viewport {
+      h1 {
+          font-size: 24px;
+          line-height: 32px;
+          margin-right: 15px;       
+          margin-left: 15px;       
+      }
+      span {
+        font-size: 24px;
+      }
+    }
+  }
+  .how-we-do-it-section {
+    .dark-translucent-background {
+      height: 100%;
+      min-height: 612px;
+      padding: 100px 10px 10px 20px;
+    }
+    .slick-slide {
+      min-height: 612px;
+      height: 100%;
+    }
+    div.col-md-12 {
+      padding: 20px 0;
+    }
+    h1.col-md-12 {
+      padding: 44px 0px 0 14px;
+    }
+    .article-container {
+      padding: 0;
+    }
+    .article-summary {
+      padding: 20px 15px;
+    }
+    ul.how-we-do-slides {
+      padding: 20px 0 0; 
+    }
+    li.slick-slide {
+      background-position: initial;
+      padding-bottom: 0;
+    }
+  }
+  .folk-love-us-section {
+    .center-box-wrap {
+        padding: 25px;
+        font-size: 16px;
+    }    
+  }
+  .rails-studio-section {
+    margin: 50px auto;
+    > p {
+      font-size: 18px;
+    }
+  }
+  .know-more-tech  {
+    margin-bottom: 50px;
+    padding: 0 15px;
+    > p {
+      font-size: 18px; 
+    }
+  }
+}
+

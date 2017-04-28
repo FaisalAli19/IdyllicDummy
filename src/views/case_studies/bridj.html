@@ -1,0 +1,82 @@
+{% extends "../layouts/default.html" %}
+
+{% block title %}
+	Minimum viable product | Sharing ecomony.
+{% endblock %}
+
+{% block meta_description %}
+	Idyllic got bridj value at $60M by helping them launch their iOS and Android application..
+{% endblock %}
+
+{% block meta_keywords %}
+	ruby on rails development, ror development, rails development, ruby development, iOS, Android, Agile, Node.js, microservices, Kanban.
+{% endblock %}
+
+{% block extra_css %}
+	<link href="/css/case-studies.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<section class="case-studies-viewport-section" data-hide-menu-section>
+	<div class="case-studies-viewport">
+	</div>
+</section>
+<section class="container">
+	<div class="bridj-center-box-wrap">
+		<div class="project-info">
+			<p class="f18">Bridj</p>
+			<span class="small-span-border"></span>
+			<ul>
+			  <li><span>1</span>An iOS &amp; two Android applications backed by a Ruby on Rails application.</li>
+			  <li><span>2</span>Original estimates : 6-8 months. Cost over 1M.</li>
+			  <li><span>3</span>We Delivered in 14 weeks for less than 400K.</li>
+			  <li><span>4</span>Upon launch evaluation shot upto 60M followed by Series A round of funding.</li>
+			</ul>
+		</div>
+		<div class="share-img-wrap hidden">
+			<a href="">{{ icon_share() }}</a>
+			<p>Share</p>
+		</div>
+		<div class="pull-right wrap-up-img">
+			<img src="//s3.amazonaws.com/website-2017/images/case_studies/bridj/brdij_iphone1.png">
+		</div>
+	</div>
+	<div class="col-md-6 f16 mt50 mb50 bridj-top-section">
+		<p>Bridj wanted to create an urban mass transit system for the city of Boston. They came to Idyllic for a web application along with iOS and Android applications. The project duration, they said, was estimated by other companies at 6-8 months and they needed it delivered in 10 weeks.</p>
+	</div>
+</section>
+
+<section class="container">
+	<div class="we-took-up-section">
+		<div class="row we-took-up">
+			<div class="col-md-4 mobile-image-section">
+				<h5 class="sub-info-text fs40">We took up the challenge!</h5><br>
+				<img src="//s3.amazonaws.com/website-2017/images/case_studies/bridj/brdij_iphone2.png">
+			</div>
+			<div class="col-md-8 f16 pl50 lh24">
+				<p>The requirement was to build a driver side Android application, passenger iOS and Android applications and a web administration. The requirements were summarised in a 12 bullet point document.</p>
+				<p>We knew that there was no time for requirements gathering and going through our standard process. We took the best from Scrum and Kanban and kicked off the development with a team of 14 members. We wanted to avoid everything that would cause delays in time. So we chose not to use any project management tool, but managed the entire project on an excel spreadsheet.</p>
+				<p>We created a high level milestone for 10 weeks.</p>
+
+			</div>
+		</div>	
+	</div>
+	<div class="case-bg-img hidden-xs hidden-sm"></div>
+	<div class="row">
+		<div class="col-md-8 f16 mt50 we-took-up-content">
+				<p>Everyday, we would decide with the client on what we would be building. We would show the designs to them and get a sign off or mark any changes and it would straight go to development.
+				</p>
+				<p>We took a micro-service approach where each developer could independently work on their module as all communication were through pre-defined API calls.</p>
+				<p>We delivered the project with more than the12 bullet points defined in the requirements gathering document in 12 weeks. Bridj raised their series A funding and was valued at 60M USD a few weeks after the launch.</p>
+		</div>
+		<div class="col-md-4 text-right">
+			<img class="wrap-img" src="//s3.amazonaws.com/website-2017/images/case_studies/bridj/brdij_iphone3.png">
+		</div>	
+	</div>
+</section>
+
+{{ next_up_component(paths.teliax_studies_path, 'TollFree Exchange', 'mt30') }}
+
+{% include "../includes/contact_form.html" %}
+
+{% endblock %}

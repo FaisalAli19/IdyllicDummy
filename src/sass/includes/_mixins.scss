@@ -1,0 +1,186 @@
+@mixin proximaNova($size:400) {
+  font-family: "proxima-nova","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: $size;
+  font-style: normal;
+}
+
+@mixin crimsonTextFont {
+  font-family: 'Crimson Text', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  letter-spacing: 1px;
+}
+
+@mixin thinFont {
+  @include proximaNova(100);
+}
+
+@mixin lightFont {
+  @include proximaNova(300);
+}
+
+@mixin regularFont {
+  @include proximaNova(400);
+}
+
+@mixin mediumFont {
+  @include proximaNova(500);
+}
+
+@mixin semiBoldFont {
+  @include proximaNova(600);
+}
+
+@mixin boldFont {
+  @include proximaNova(700);
+}
+
+@mixin extraBoldFont {
+  @include proximaNova(800);
+}
+
+@mixin dryBrushFont {
+  font-family: 'Dry Brush', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin backgroundCoverImage($path, $size: cover) {
+  background-repeat: no-repeat;
+  background-size: $size;
+  background-image: url($path);
+}
+
+@mixin lightPlaceholderFont {
+  color: #657682;
+  @include regularFont;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@mixin displayFlexCenter {
+  display: flex;
+  @include browserCssFlex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+@mixin browserCssFlex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+@mixin blackOverlay($opacity:0.85) {
+  height: 100%;
+  background-color: rgba(41, 48, 53, $opacity);
+  color:  #fff;
+}
+
+@mixin viewPortOverlay{
+  @include fullViewAbs;
+  color: #fff;
+  @include displayFlexCenter;
+  @include lightFont;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  h1{
+    text-align: center;
+    font-size: 42px;
+    line-height: normal;
+    @include thinFont;
+    margin-bottom: 0;
+    max-width: 840px;
+  }
+  span{
+    @include mediumFont;
+    line-height: normal;
+    font-size: 42px;
+    text-align: center;
+    max-width: 840px;
+  }
+}
+
+@mixin viewport_circle_section($wrap_opacity:0.8){
+  height: 100vh;
+  min-height: 600px;
+  background-attachment: fixed;
+  .circle-wrap {
+    overflow: hidden;
+    background: rgba(41, 48, 53, $wrap_opacity);
+    .outer_circle{
+      background: rgba(0, 0, 0, 0.1);
+      .inner_circle{
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+
+@mixin rotate($deg){
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+
+@mixin lightPlaceHolder() {
+  ::-webkit-input-placeholder {
+    @include lightPlaceholderFont;
+  }
+  :-moz-placeholder {
+    @include lightPlaceholderFont;
+  }
+  ::-moz-placeholder {
+    @include lightPlaceholderFont;
+  }
+  :-ms-input-placeholder {
+    @include lightPlaceholderFont;
+  }
+}
+
+@mixin posAbs($top:0px, $left:0px) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+
+@mixin circle_mixin($outer, $inner){
+  .outer_circle {
+    @include widthHeight($outer+px, $outer+px);
+    .inner_circle{
+      @include widthHeight($inner+px, $inner+px);
+      @include marginTopLeft(-$inner/2+px, -$inner/2+px);
+    }
+  }
+}
+
+@mixin widthHeight($width:100%, $height:100%){
+  width: $width;
+  height: $height;
+}
+
+@mixin marginTopLeft($top:0px, $left:0px) {
+  margin-top: $top;
+  margin-left: $left;
+}
+
+@mixin fullViewAbs() {
+    @include posAbs;
+    @include widthHeight;
+}
+
+@mixin circle($diameter){
+  @include widthHeight($diameter, $diameter);
+  border-radius: 100%;
+}
+
+@mixin translateY($top){
+  -moz-transform: translateY($top);
+  -ms-transform: translateY($top);
+  -webkit-transform: translateY($top);
+  transform: translateY($top);
+}

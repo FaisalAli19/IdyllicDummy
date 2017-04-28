@@ -1,0 +1,85 @@
+{
+  "product_tags": [{
+    "name": "building_a_mvp",
+    "value": "Building an MVP"
+  }, {
+    "name": "an_extended_dev_team",
+    "value": "An Extended Dev Team"
+  }, {
+    "name": "looking_for_cto",
+    "value": "Looking for a CTO"
+  }],
+
+  "design_tags": [{
+    "name": "user_research",
+    "value": "User Research"
+  }, {
+    "name": "ux_strategy",
+    "value": "UX Strategy"
+  }, {
+    "name": "wireframes",
+    "value": "Wireframes"
+  },  {
+    "name": "visual_design",
+    "value": "Visual Design"
+  }, {
+    "name": "identify_and_branding",
+    "value": "Identity & Branding"
+  }],
+
+  "development_tags": [{
+    "name": "development",
+    "value": "Development"
+  }, {
+    "name": "rubyonrails",
+    "value": "Ruby on Rails"
+  }, {
+    "name": "golang",
+    "value": "Golang"
+  }, {
+    "name": "nodejs",
+    "value": "Node.js"
+  }, {
+    "name": "dotnet",
+    "value": ".Net"
+  }, {
+    "name": "angularjs",
+    "value": "Angular.js"
+  }, {
+    "name": "emberjs",
+    "value": "Ember.js"
+  }, {
+    "name": "nosql",
+    "value": "NoSql"
+  }, {
+    "name": "sql",
+    "value": "SQL"
+  }, {
+    "name": "responsive_web",
+    "value": "Responsive Web"
+  }, {
+    "name": "ios",
+    "value": "iOS"
+  }, {
+    "name": "android",
+    "value": "Android"
+  }],
+
+  "budget_tags": [{
+    "name": "fiftyk",
+    "value": "< $50k"
+  }, {
+    "name": "hundredk",
+    "value": "$50k - $100k"
+  }, {
+    "name": "twofiftyk",
+    "value": "$100k - $250k"
+  }, {
+    "name": "fivehundredk",
+    "value": "$250k - $500k"
+  }, {
+    "name": "exceeded",
+    "value": "> $500k"
+  }]
+
+}

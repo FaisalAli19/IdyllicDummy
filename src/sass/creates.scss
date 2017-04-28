@@ -1,0 +1,221 @@
+@import "includes/variables";
+@import "includes/mixins";
+
+.creates_logo_hover {
+  h4 {
+    color: $studio-sky-blue-color;
+  }
+}
+.logo_blue {
+  .bridj-icon { background-position: -51px 0px; }
+  .toll-free-exchange-icon { background-position: -113px -51px; }
+  .fankave-icon { background-position: -163px 0px; }
+}
+
+#our-clients{
+    opacity: 0;
+    padding-top: 60px;
+}
+
+.creates-viewport-section {
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &.bridj-banner {
+    background-image: url('//s3.amazonaws.com/website-2017/images/banners/bridj.jpg');
+  }
+  &.fankave-banner {
+    background-image: url('//s3.amazonaws.com/website-2017/images/banners/fankave.jpg');
+  }
+  &.tollfree-exchange-banner {
+    background-image: url('//s3.amazonaws.com/website-2017/images/banners/tollfree-exchange.jpg');
+  }
+  .viewport-overlay {
+      @include fullViewAbs;
+      color:  #fff;
+      font-size: 26px;
+      text-align: center;
+      @include displayFlexCenter;
+      justify-content: inherit;
+      -webkit-justify-content: inherit;
+      .icon_transparent_mac {
+        svg {
+            width: 100px;
+            height: 64px;
+        }
+      }
+      .icon_transparent_iphone {
+        svg {
+          width: 36px;
+          height: 64px;
+        }
+      }
+      .project-slides-wrap {
+        @include thinFont;
+        letter-spacing: 2px;
+        width: 800px;
+        margin: 0px auto;
+        .plus_icon {
+          svg {
+            width: 14px;
+            position: relative;
+            top: -23px;
+            margin: 0px 15px;
+          }
+        }
+        .slides-for{
+          margin-bottom: 18px;
+          font-size: 26px;
+          .slides-items {
+            outline: none;
+          }
+        }
+        .slides-nav {
+            .slides-items {
+              outline: none;
+              width: 33.33%;
+              float: left;
+              outline: none;
+              h4 {
+                @include dryBrushFont;
+                font-size: 26px;
+                margin-bottom: 20px;
+              }
+              &.slick-current {
+                  @extend .creates_logo_hover;
+                  @extend .logo_blue;
+              }
+              .logo-wrap {
+                height: 95px;
+                border: 1px solid rgba(255,255,255,0.2);
+                border-right: 0px;
+                background-color: rgba(41, 48, 53, 0.65);
+                @include displayFlexCenter;
+              }
+              &:hover {
+                .logo-wrap {
+                  background-color: #fff;
+                }
+                @extend .creates_logo_hover;
+                @extend .logo_blue;
+              }
+              &:last-child {
+                .logo-wrap {
+                  border-right: 1px solid #999;
+                }
+              }
+            }
+        }
+      }
+  }
+}
+
+.tag-section {
+  position: relative;
+  margin-bottom: -50px;
+  .header-text-wrap {
+    width: 85%;
+    margin: 0px auto;
+    color: $studio-blue-dark-color;
+    h1 {
+      @include dryBrushFont;
+      margin: 0px;
+      letter-spacing: 5px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+    span.divide {
+      display: inline-block;
+      width: 80px;
+      margin: 30px;
+      border-bottom: 1px solid $studio-orange-color;
+    }
+    p {
+      font-size: 22px;
+      @include regularFont;
+      letter-spacing: 2px;
+    }
+  }
+  .center-box-wrap {
+    padding: 50px;
+  }
+  > .container {
+    position: relative;
+    width: 100%;
+    top: -120px;
+  }
+  .form-section {
+    .input-form {
+      .email-form-wrap input {
+          width: 75%;
+      }
+      .checkbox-sections {
+          margin: 0 10px 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .creates-viewport-section {
+    .viewport-overlay {
+      .project-slides-wrap {
+        width: 100%;
+        .slides-for{
+          font-size: 22px;
+        }
+        .slides-nav {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .tag-section {
+    .container {
+      top: -100px;
+      .center-box-wrap {
+        .email-form-wrap {
+          width: 100%;
+          input {
+            width: 100%;
+          }
+          span .primary-button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $device-iphone-xs) and (max-width: $device-xs) {
+  .fankave-banner .circle-wrap {
+    background: rgba(41, 48, 53, 0.8);
+  }
+  .creates-viewport-section .viewport-overlay {
+    .project-slides-wrap {
+      .slides-nav .slides-items {
+        float: none;
+        display: flex;
+        @include browserCssFlex;
+        align-items: center;
+        -webkit-align-items: center;
+        width: 100% !important;
+        a {
+          width: 100%;
+          margin-left: 15px;
+        }
+        .logo-wrap {
+          height: 75px;
+          border-right: 1px solid #999;
+        }
+      }
+    }
+  }
+  .tag-section {
+    .center-box-wrap {
+      padding: 50px 15px;
+    }
+  }
+}

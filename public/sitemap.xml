@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://idyllic.co/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/user-experience</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/web-development</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/mobile-development</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/about-us</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/design-led-development-case-studies</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/ruby-on-rails-and-mobile-case-study/bridj</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/user-experience-design-case-study/fankave</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/?story_type=ui_design</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/?story_type=web_dev</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/?story_type=mobile_dev</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/role-playing-user-experience-design-real-case-study/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ecommerce-shopping-cart-items-total-cost-cart/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ux-surgeries-interesting-differences-in-b2b-vs-b2c-world/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/ruby-on-rails-development</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/api-testing/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/4-important-concepts-any-front-end-developer-should-know/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/charles-proxy-developers-testers-everyday-friend/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/xamarin-from-a-newbies-perspective/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/dont-use-up-your-users-device-storage-space/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/scalable-ruby-case-study/toll-free-exchange</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/6-best-practices-leading-development-team/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/smart-customer-stole-business/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/startup-conundrum-good-bad-ugly/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/cyclomatic-complexity/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/standalone-jruby-application-activerecord/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/reasons-why-perception-management-is-important/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/employee-benefits-administration-system/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/setup-simple-website-using-nodejs-express-nunjucks-gulp-nodemon/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/understanding-railtie-and-mountable-rails-engine/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/build-mini-heroku-powered-docker-3-simple-steps/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/working-with-logstash/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/elasticbeanstalk/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/use-of-amazon-ses-in-rails-app-to-send-emails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ruby-on-rails-development-with-activerecords/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/webrtc-opetok-in-ruby-on-rails-for-text-chat/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/some-flexbox-basics/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/app-within-app-alpha-app/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/sharing-image-to-whatsapp-other-apps-using-uiactivityviewcontroller/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-to-set-onclick-in-listview-item/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/dynamic-handling-of-stringstext-for-mobile-apps-part-2/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/dynamic-handling-of-stringstext-for-mobile-apps-part-1/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/ux-designer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/graphics-designer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/ruby-on-rails-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/javascript-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/ios-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/java-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/html-css-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/android-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/dot-net-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/node-js-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/xamarin-developer</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/business-analyst</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/careers/communications-specialist</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/use-of-summernote-wyswig-editor-for-image-upload/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/test-cases-made-easy/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/native-data-binding-using-javascript-with-observe/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/require-js-with-rails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-is-startup-hiring-so-difficult/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ux-design-parable/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/cqrs-and-event-sourcing-at-idyllic/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-should-businesses-care-about-microservices/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/do-startups-need-hr/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/2569-2/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/idyllic-software-is-a-your-clutch-web-development-company/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/using-httpproxy-in-nethttp-globally/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/hack-with-rack/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/work-life-balance/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/face-recognition-in-ruby-using-kairos-also-finding-your-celebrity-look-alike/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/capacity-the-biggest-challenge-for-high-growth-companies/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/selenium-running-parallel-tests-on-different-browser/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/4-big-challenges-of-microservices/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/microservices-at-idyllic/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/the-three-software-constraints-of-modern-software-development-pt-2-budget-constraints/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/modularizing-javascript-with-browserify/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/5-ways-we-keep-our-communication-untangled/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/appium-mobile-app-automation-made-amazing/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/dealing-with-disillusionment-in-tech/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/silver-bullet-the-problem/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/the-three-software-constraints-of-modern-software-development-pt-1-time-constraints/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/technology-heterogeneity-and-microservices/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/budget-constraints/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/race-against-time/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/building-an-ocr-using-pdf-js-and-pdftext/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/upgrading-rails-2-to-rails-3-is-easy/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/mongodb-not-evil-just-misunderstood/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/there-is-always-someone-who-can-do-it-cheaper-be-wary/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-did-i-quit-on-hubspot/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/simple-quick-ssh-tunneling-to-expose-your-web-app/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ies-failure-due-to-a-selector-limit/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-first-business-fails-part-2/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-first-business-fails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/some-carrierwave-tips-n-tricks/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-to-hire-the-right-cto-for-your-startup/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/to-share-or-not-to-share-ps4-vs-xbox-one/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/import-once-in-lesscss-way-handier/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/alternative-authentication-process-for-your-rails-application-using-omniauth-and-devise/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/5-easy-to-do-no-cost-involved-tactics-to-boost-your-seo/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/myth-buster-who-works-for-a-startup/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/activity-stream-using-redis/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/lean-hollywood-iron-man/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/scaling-your-ruby-on-rails-application-with-cloud-computing-heroku-case-study/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/summon-the-warrior-in-you-on-this-world-entrepreneurship-day/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/leveraging-lean-analytics-with-social-media-monitoring/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/starting-a-business/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-responsive-web-design-helps-bring-your-businesses-mobile/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/capistrano-on-ec2/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/user-interface-design-is-where-s-u-c-e-s-s-begins/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-we-dont-use-twitter-bootstrap/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/start-ups-in-the-grip-of-a-slowdown/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/multiuser-chat-using-xmpp-and-orbited-using-ruby-on-rails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/celebrating-womanhood-top-3-motivating-women-entrepreneurs/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ux-best-practices/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/choosing-the-right-cms/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/css-specificity-survival-of-the-fittest/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/start-ups-brave-new-ideas-in-a-changing-world-23/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ec2-backup-strategy-on-s3-ubuntu/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-will-you-never-work-with-a-project-manager-at-idyllic/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/start-ups-focus-on-core-activities/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/do-websites-need-to-look-exactly-the-same-in-every-browser/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/start-your-company-with-an-offshore-vacation/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-should-you-not-work-with-the-%e2%80%9cbest%e2%80%9d-in-the-industry/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/making-the-addthis-widget-in-ajax-response-even-in-jquery-dialog/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-your-mvp-helps-you-raise-funds-for-your-startup/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/business-website/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/progressive-enhancement-101/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/what-is-included-in-an-mvp/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/creating-pdf-using-prawn-in-ruby-on-rails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/coffee-script-with-rails-3-x-getting-started/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/is-ruby-on-rails-not-enough-incrementally-update-your-technology-stack/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/delayed-job-in-rails3/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/finicky-about-outsourcing-development/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-entrepreneurs-love-ruby-on-rails-for-web-development/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/before-you-build-your-product-think-how-will-you-sell-it/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/experimental-emergence-a-hale-and-hearty-living-idea/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/7-ways-to-cut-the-fat-in-a-lean-startup/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-not-to-signup-for-a-fixed-bid-project/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/webbing-trends-of-2013/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/fulltext-search-with-sunspot/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/stop-making-resolutions-start-making-tangible-plans/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-build-a-shopify-app/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/local-is-the-global/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/file-to-import-not-found-or-unreadable-compassreset/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/choosing-a-right-gem-for-your-admin-section/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/web-page-power-titles/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-hurricane-sandy-hit-online-economy/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/how-to-tag-with-redis/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/careers-page-is-the-next-most-important-page-on-website/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/yamlyaml-aint-a-markup-language/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/setting-up-postgresql-for-ror-development/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/endless-page-using-jquery-and-will_paginate/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/important-considerations-before-hiring-a-ruby-on-rails-developer/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/vim-and-moi/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/branching-merging-and-restoring-with-svn/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/zappos-incentivizes-employees-to-quit/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-will-we-not-have-an-hr-department-ever/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/rails-observer-implementation-part-1/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/sinatra-for-speed/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/active-record-associations-tips-and-tricks/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/git-how-to-change-last-commit-message-if-pushed-by-mistake/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/auto-login-from-iphone-home-screen-shortcut-using-localstorage-and-rack/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/7-great-websites-using-ruby-on-rails/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ruby-on-rails-observer-implementation-part-2/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/patent-wars-the-silencing-of-maya/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/attachment-upload-and-processing-with-carrierwave/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/job-boards-are-noisy/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/qa-with-agile-teams/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/7-lessons-for-your-business-website/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/ruby-on-rails-for-startups/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://idyllic.co/blog/why-invest-in-your-elevator-pitch/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.01</priority>
+</url>
+</urlset>

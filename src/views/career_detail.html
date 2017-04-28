@@ -1,0 +1,119 @@
+{% extends "./layouts/default.html" %}
+
+{% block title %}
+    {{ details.page_title }}
+{% endblock %}
+
+{% block meta_description %}
+    {{ details.meta_description }}
+{% endblock %}
+
+{% block meta_keywords %}
+    {{ details.meta_keywords }}
+{% endblock %}
+
+{% block extra_css %}
+    <link href="/css/careers.css" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+    <section class="carrier-detail-viewport-section" data-hide-menu-section>
+        <div class="circle-wrap">
+            <div class="outer_circle">
+                <div class="inner_circle"></div>
+            </div>
+        </div>
+        <div class="carrier-detail-viewport">
+            <h1>{{ page.menu_title }}</h1>
+            <h3>Here's your chance to work with an ever<br/>enthusiastic team</h3>
+        </div>
+    </section>
+
+    <section class="resonate_with_you">
+        <div class="container">
+            <div class="center-box-wrap">
+                <h3 class="title-font mb30">Does this resonate with you?</h3>
+                <ul>
+                    {% for list in details.resonate_list %}
+                        <li><div><span class="f-brush">{{ loop.index }}</span><span>{{ list | safe }}</span></div></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="apply_now_section form-section goto-contact-section">
+        <div class="container">
+            <div class="header-wrap mb30">
+                <h2>Apply Now</h2>
+                <h4>Lets build cool stuff</h4>
+            </div>
+            <div class="input-form mb50">
+                <form id="career_detail_form" class="form-inline" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="applied_for" value="{{ details.title }}"/>
+                    <input type="hidden" name="category" value="{{ details.category }}"/>
+                    <div class="row mb50">
+                        <div class="col-md-4">
+                            <div class="personal-info hidden-xs hidden-sm">
+                                <img src="//s3.amazonaws.com/website-2017/images/svg/personal_info.svg">
+                                <h4>Personal</h4>
+                                <h4>Info</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-field" required name="name" placeholder="NAME" autocomplete="off" maxlength="50"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-field" required name="email" placeholder="EMAIL" autocomplete="off" maxlength="50"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-field" required name="phone_number" placeholder="PHONE" autocomplete="off" maxlength="10" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-field" name="website_url" placeholder="WEBSITE / GIT NAME" autocomplete="off" maxlength="50" />
+                                </div>
+
+                                <div class="choose-file-section">
+                                    <input type="file" name="resume" required id="choose-file" autocomplete="off" />
+                                    <label for="choose-file">
+                                        <span class="browse-title">UPLOAD CV/RESUME</span>
+                                        <span class="browse-btn pull-right">Browse</span>
+                                    </label>
+                                    <p class="browse-caption">( Size Limit : 10mb )</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group mb50">
+                                <label class="textarea-label">WHAT MOTIVATES YOU?</label>
+                                <textarea class="form-control input-field" required name="motivating_factor" autocomplete="off" maxlength="500"></textarea>
+                            </div>
+                            <div class="form-group mb50">
+                                <label class="textarea-label">WHATS YOUR PLAN TO CHANGE TO THE WORLD?</label>
+                                <textarea class="form-control input-field" required name="change_world_plan" autocomplete="off" maxlength="500"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="conversation hidden-xs hidden-sm">
+                                <img src="//s3.amazonaws.com/website-2017/images/svg/chat.svg">
+                                <h4>Conversation</h4>
+                                <h4>Starters</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb30">
+                        <div class="g-recaptcha" data-sitekey="6LfYSgoUAAAAAKfvKTz08yroP9L7tVqEQVJIqqr0"></div>
+                    </div>
+                    <button type="submit" class="btn primary-button done-button text-uppercase">APPLY!</button>
+                </form>
+            </div>
+       </div>
+    </section>
+
+
+{% endblock %}

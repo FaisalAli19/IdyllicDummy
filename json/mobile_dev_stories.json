@@ -1,0 +1,22 @@
+[{
+  "url": "/blog/xamarin-from-a-newbies-perspective/",
+  "image_url": "",
+  "image_present": false,
+  "header": "XAMARIN",
+  "subheader": "XAMARIN FROM A NEWBIE’S PERSPECTIVE",
+  "description": "Coming from a conventional web app world, the world of mobile always fascinated me. However, I always felt like a misfit there because of dot net world’s obvious limitations in mobility."
+}, {
+  "url": "/blog/dont-use-up-your-users-device-storage-space/",
+  "image_url": "",
+  "header": "",
+  "image_present": false,
+  "subheader": "DON’T USE UP YOUR USER’S DEVICE STORAGE SPACE",
+  "description": "These days, most API-driven applications do have some/large amounts of media content, whether it’s an image or a video. And to give the user a better experience of not downloading the content each time, we tend to cache the content with the most images by using various Image Caching libraries available."
+}, {
+  "url": "/blog/charles-proxy-developers-testers-everyday-friend/",
+  "image_url": "/blog/wp-content/uploads/2016/04/2000px-Proxy_concept_en.svg_.png",
+  "header": "Mobile QA",
+  "image_present": true,
+  "subheader": "CHARLES PROXY: DEVELOPERS’S & TESTER’S EVERYDAY FRIEND",
+  "description": "Charles Proxy is a great tool that will be helpful for everyday use for both Developer & Tester. It can be even helpful for other team members (BA / project lead) when they want to verify particular scenario without depending on deployment from developer’s side."
+}]
